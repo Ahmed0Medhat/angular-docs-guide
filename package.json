@@ -1,0 +1,14 @@
+{
+  "name": "angular-docs-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "inventory": "node scripts/inventory.mjs",
+    "check": "node scripts/check-coverage.mjs && node scripts/lint-references.mjs",
+    "sync-check": "node scripts/sync-check.mjs"
+  },
+  "license": "MIT"
+}

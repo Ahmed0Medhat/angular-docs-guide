@@ -1,0 +1,5 @@
+.cache/
+node_modules/
+evals/results/
+.superpowers/
+.DS_Store
