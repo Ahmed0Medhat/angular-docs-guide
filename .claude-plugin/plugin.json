@@ -1,0 +1,10 @@
+{
+  "name": "angular-docs-guide",
+  "version": "0.1.0",
+  "description": "Page-by-page distillation of the angular.dev v22 docs (In-depth Guides, Developer Tools, Best Practices, Extended Ecosystem) as an on-demand agent skill.",
+  "author": { "name": "Ahmed0Medhat" },
+  "homepage": "https://github.com/Ahmed0Medhat/angular-docs-guide",
+  "repository": "https://github.com/Ahmed0Medhat/angular-docs-guide",
+  "license": "MIT",
+  "keywords": ["angular", "skill", "signals", "signal-forms", "ssr", "testing", "angular-v22"]
+}

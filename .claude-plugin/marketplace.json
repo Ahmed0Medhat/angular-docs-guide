@@ -1,0 +1,14 @@
+{
+  "name": "angular-docs-guide",
+  "owner": {
+    "name": "Ahmed0Medhat"
+  },
+  "description": "Agent skill that distills the angular.dev v22 docs into on-demand rules and references.",
+  "plugins": [
+    {
+      "name": "angular-docs-guide",
+      "source": "./",
+      "description": "Angular v22 docs distilled into an agent skill."
+    }
+  ]
+}
