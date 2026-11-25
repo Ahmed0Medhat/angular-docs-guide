@@ -13,6 +13,8 @@
 - Debouncing user input before fetching (`debounced`).
 - Syncing signal state to imperative, non-signal APIs: logging, storage, canvas/charts, manual DOM work (`effect`, `afterRenderEffect`).
 - Reading a signal without making it a dependency (`untracked`).
+- See also: signals ↔ RxJS interop → references/ecosystem/rxjs-interop.md
+- See also: inspecting the signal graph in Angular DevTools → references/tools/devtools.md
 
 ## Rules
 - MUST read a signal by calling it as a getter (`count()`); this is how Angular records where it is used.
