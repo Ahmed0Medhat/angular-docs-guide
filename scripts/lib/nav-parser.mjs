@@ -23,15 +23,24 @@ export function tokenize(src) {
     if (c === "'" || c === '"' || c === '`') {
       let j = i + 1;
       let value = '';
+      let interpolated = false;
       while (j < src.length && src[j] !== c) {
         if (src[j] === '\\') { value += src[j + 1]; j += 2; continue; }
         if (c === '`' && src[j] === '$' && src[j + 1] === '{') {
-          throw new Error(`Template interpolation not supported at offset ${j}`);
+          // Interpolated template: its value is unknowable without evaluating, so it stays opaque.
+          interpolated = true;
+          let depth = 0;
+          do {
+            if (src[j] === '{') depth++;
+            else if (src[j] === '}') depth--;
+            j++;
+          } while (j < src.length && depth > 0);
+          continue;
         }
         value += src[j++];
       }
       if (j >= src.length) throw new Error(`Unterminated string at offset ${i}`);
-      tokens.push({ type: 'string', value, pos: i });
+      tokens.push(interpolated ? { type: 'template', pos: i } : { type: 'string', value, pos: i });
       i = j + 1;
       continue;
     }

@@ -53,3 +53,16 @@ test('missing export fails loudly', () => {
 test('unterminated string fails loudly', () => {
   assert.throws(() => tokenize("const a = 'oops"), /Unterminated string/);
 });
+
+test('template literals with interpolation are opaque, inside and outside the array', () => {
+  const src = [
+    'export const DOCS_SUB_NAVIGATION_DATA: NavigationItem[] = [',
+    "  {label: 'A', path: `guide/${x}`, children: [{label: 'B', path: 'guide/b', contentPath: 'guide/b'}]},",
+    '];',
+    'function url(e) { return `${e.base}/${e.name}`; }',
+  ].join('\n');
+  const nav = parseNavArray(src, 'DOCS_SUB_NAVIGATION_DATA');
+  assert.equal(nav[0].label, 'A');
+  assert.equal(nav[0].path, undefined);
+  assert.equal(nav[0].children[0].contentPath, 'guide/b');
+});

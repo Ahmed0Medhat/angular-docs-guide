@@ -22,3 +22,8 @@ test('extracts docs-code and multifile paths, multi-line attributes, sorted and 
 test('returns empty array when there are no examples', () => {
   assert.deepEqual(extractExamplePaths('# Title\n\nText.'), []);
 });
+
+test('ignores docs-code tags inside HTML comments', () => {
+  const md = '<!-- <docs-code live path="adev/src/content/examples/i18n"\n title="x"/> -->\n<docs-code path="adev/src/content/examples/a.ts"/>';
+  assert.deepEqual(extractExamplePaths(md), ['adev/src/content/examples/a.ts']);
+});

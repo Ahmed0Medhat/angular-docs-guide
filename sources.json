@@ -1,0 +1,5050 @@
+{
+  "angular": {
+    "repo": "angular/angular",
+    "ref": "22.3.x",
+    "commit": "bd1e32b55c38392c93e1a073a18b346cd2162e31"
+  },
+  "navBlob": "49d96cb0993d0fc26df7687a98f662f76ada87a6",
+  "pages": [
+    {
+      "section": "In-depth Guides",
+      "group": "Signals",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/signals",
+      "contentPath": "guide/signals/overview",
+      "alsoIn": [],
+      "blob": "7b9170c93d04983018f7d1d4f6b39cb8e0659731",
+      "words": 1638,
+      "examples": [],
+      "reference": "references/guide/signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Signals",
+      "title": "Dependent state with linkedSignal",
+      "url": "https://angular.dev/guide/signals/linked-signal",
+      "contentPath": "guide/signals/linked-signal",
+      "alsoIn": [],
+      "blob": "cfa963c6683a3502e9c9d75fadfebb55024acdb1",
+      "words": 1020,
+      "examples": [],
+      "reference": "references/guide/signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Signals",
+      "title": "Async reactivity with resources",
+      "url": "https://angular.dev/guide/signals/resource",
+      "contentPath": "guide/signals/resource",
+      "alsoIn": [],
+      "blob": "ae644cc0916da5775462786f0edeba8acdd7dc52",
+      "words": 1770,
+      "examples": [],
+      "reference": "references/guide/signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Signals",
+      "title": "Debounced signals",
+      "url": "https://angular.dev/guide/signals/debounced",
+      "contentPath": "guide/signals/debounced",
+      "alsoIn": [],
+      "blob": "05abb5d040688b80f84ba191d4889c4174fc6214",
+      "words": 440,
+      "examples": [],
+      "reference": "references/guide/signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Signals",
+      "title": "Side effects for non-reactives APIs",
+      "url": "https://angular.dev/guide/signals/effect",
+      "contentPath": "guide/signals/effect",
+      "alsoIn": [],
+      "blob": "9754515c033c0c41451e1e5cebc337481f95da6c",
+      "words": 1338,
+      "examples": [],
+      "reference": "references/guide/signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Anatomy of components",
+      "url": "https://angular.dev/guide/components",
+      "contentPath": "guide/components/anatomy-of-components",
+      "alsoIn": [],
+      "blob": "9ba87c9dc81aa61dd9ed27e1cb49b76c4abe19a3",
+      "words": 617,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Selectors",
+      "url": "https://angular.dev/guide/components/selectors",
+      "contentPath": "guide/components/selectors",
+      "alsoIn": [],
+      "blob": "a04926ba085b9b059b65752dde44fa6c1ae08cc1",
+      "words": 734,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Styling",
+      "url": "https://angular.dev/guide/components/styling",
+      "contentPath": "guide/components/styling",
+      "alsoIn": [],
+      "blob": "67a8cd6e304dc0a9c05764198f02cc0adc115c29",
+      "words": 1647,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Accepting data with input properties",
+      "url": "https://angular.dev/guide/components/inputs",
+      "contentPath": "guide/components/inputs",
+      "alsoIn": [],
+      "blob": "67ab7ebd06db8df3109217f4152399fc45abe4a6",
+      "words": 1980,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Custom events with outputs",
+      "url": "https://angular.dev/guide/components/outputs",
+      "contentPath": "guide/components/outputs",
+      "alsoIn": [],
+      "blob": "e61cfed5dc7adca9bc98874cb602838a4f4db9ad",
+      "words": 739,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Content projection with ng-content",
+      "url": "https://angular.dev/guide/components/content-projection",
+      "contentPath": "guide/components/content-projection",
+      "alsoIn": [],
+      "blob": "d086e2cbcce3d83331b1aa94e710fd35677d437a",
+      "words": 1077,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Host elements",
+      "url": "https://angular.dev/guide/components/host-elements",
+      "contentPath": "guide/components/host-elements",
+      "alsoIn": [],
+      "blob": "57111ac55055150ea280e095f41b838c03c74139",
+      "words": 879,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Lifecycle",
+      "url": "https://angular.dev/guide/components/lifecycle",
+      "contentPath": "guide/components/lifecycle",
+      "alsoIn": [],
+      "blob": "5da0d5a4ac047b79ba5f585fcd1ea4abe87df36b",
+      "words": 1715,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Referencing component children with queries",
+      "url": "https://angular.dev/guide/components/queries",
+      "contentPath": "guide/components/queries",
+      "alsoIn": [],
+      "blob": "b0bc6e04a18dc947207bdcf1ae99a2c2ef337875",
+      "words": 1939,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Using DOM APIs",
+      "url": "https://angular.dev/guide/components/dom-apis",
+      "contentPath": "guide/components/dom-apis",
+      "alsoIn": [],
+      "blob": "4ba4f82cec9d45c9526b4175f6cecba29a574b80",
+      "words": 446,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Inheritance",
+      "url": "https://angular.dev/guide/components/inheritance",
+      "contentPath": "guide/components/inheritance",
+      "alsoIn": [],
+      "blob": "233db69a47d8a1d52e07ff12ecce2b902999f050",
+      "words": 404,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Programmatically rendering components",
+      "url": "https://angular.dev/guide/components/programmatic-rendering",
+      "contentPath": "guide/components/programmatic-rendering",
+      "alsoIn": [],
+      "blob": "68f36ff1abfdac24f2bd2ea025f2d4a3bda88417",
+      "words": 1621,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Advanced configuration",
+      "url": "https://angular.dev/guide/components/advanced-configuration",
+      "contentPath": "guide/components/advanced-configuration",
+      "alsoIn": [],
+      "blob": "ed6277aac0cc1de9a67a1fdfffb104fa09b6ea1c",
+      "words": 298,
+      "examples": [],
+      "reference": "references/guide/components.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Components",
+      "title": "Custom Elements",
+      "url": "https://angular.dev/guide/elements",
+      "contentPath": "guide/elements",
+      "alsoIn": [],
+      "blob": "caf6395109874df083273e562e1b5789456584a1",
+      "words": 1397,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/elements/src/app/app.ts",
+          "blob": "9368747aa68635316e700462b1cbc6cfd053a4c8"
+        },
+        {
+          "path": "adev/src/content/examples/elements/src/app/popup.service.ts",
+          "blob": "a723795ca2a33731db77fae0706d3220c2ddc0a7"
+        },
+        {
+          "path": "adev/src/content/examples/elements/src/app/popup.ts",
+          "blob": "ccee7e3ba13fd75b86e07c012a924a4acd02937c"
+        }
+      ],
+      "reference": "references/guide/elements.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/templates",
+      "contentPath": "guide/templates/overview",
+      "alsoIn": [],
+      "blob": "b1901c6dcb67be5e1e15763b4b3ea8af68948b1f",
+      "words": 488,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Binding dynamic text, properties and attributes",
+      "url": "https://angular.dev/guide/templates/binding",
+      "contentPath": "guide/templates/binding",
+      "alsoIn": [],
+      "blob": "2985e2a642e08e9bf31ffb750bebac48b293a36e",
+      "words": 1437,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Adding event listeners",
+      "url": "https://angular.dev/guide/templates/event-listeners",
+      "contentPath": "guide/templates/event-listeners",
+      "alsoIn": [],
+      "blob": "4871cf446a746fc1d5ede66b7bd5f48e0b005015",
+      "words": 848,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Two-way binding",
+      "url": "https://angular.dev/guide/templates/two-way-binding",
+      "contentPath": "guide/templates/two-way-binding",
+      "alsoIn": [],
+      "blob": "62a6523d5e41e13999f85e50c8b160115f301cb7",
+      "words": 504,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Control flow",
+      "url": "https://angular.dev/guide/templates/control-flow",
+      "contentPath": "guide/templates/control-flow",
+      "alsoIn": [],
+      "blob": "5425e5b1963f6a84448f5b39f1cb4861539cbf80",
+      "words": 1072,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Pipes",
+      "url": "https://angular.dev/guide/templates/pipes",
+      "contentPath": "guide/templates/pipes",
+      "alsoIn": [],
+      "blob": "9c0a36680b0d9c6efffc9d1956e6dafc05b40ad9",
+      "words": 1834,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Slotting child content with ng-content",
+      "url": "https://angular.dev/guide/templates/ng-content",
+      "contentPath": "guide/templates/ng-content",
+      "alsoIn": [],
+      "blob": "9047bee9cfe679edd15dfbdc274b5a98f1d45955",
+      "words": 112,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Create template fragments with ng-template",
+      "url": "https://angular.dev/guide/templates/ng-template",
+      "contentPath": "guide/templates/ng-template",
+      "alsoIn": [],
+      "blob": "9ceed719747bdafb2dc6f403230a5f9b2093eae6",
+      "words": 1426,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Grouping elements with ng-container",
+      "url": "https://angular.dev/guide/templates/ng-container",
+      "contentPath": "guide/templates/ng-container",
+      "alsoIn": [],
+      "blob": "6eacd3c1e7cd6ddfaba5fe6a841a8e3cf7363b00",
+      "words": 471,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Variables in templates",
+      "url": "https://angular.dev/guide/templates/variables",
+      "contentPath": "guide/templates/variables",
+      "alsoIn": [],
+      "blob": "aca4d2caa3ba0c5bb11e1c46ee83fc5641fbf15e",
+      "words": 1196,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Deferred loading with @defer",
+      "url": "https://angular.dev/guide/templates/defer",
+      "contentPath": "guide/templates/defer",
+      "alsoIn": [
+        "Best Practices"
+      ],
+      "blob": "d001ec651458c553394886fe76e0e0f524e30076",
+      "words": 2582,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Error boundaries with @boundary",
+      "url": "https://angular.dev/guide/templates/error-boundaries",
+      "contentPath": "guide/templates/error-boundaries",
+      "alsoIn": [],
+      "blob": "3a3bac481c7c34b131b840087cfe5e908b80fe74",
+      "words": 552,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Expression syntax",
+      "url": "https://angular.dev/guide/templates/expression-syntax",
+      "contentPath": "guide/templates/expression-syntax",
+      "alsoIn": [],
+      "blob": "bd6abb5f9c7e59de21a202e9a6da6d0176657b6a",
+      "words": 1019,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Templates",
+      "title": "Whitespace in templates",
+      "url": "https://angular.dev/guide/templates/whitespace",
+      "contentPath": "guide/templates/whitespace",
+      "alsoIn": [],
+      "blob": "101524fe744b0ca0d70f8d8151a0237716bddfcf",
+      "words": 347,
+      "examples": [],
+      "reference": "references/guide/templates.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Directives",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/directives",
+      "contentPath": "guide/directives/overview",
+      "alsoIn": [],
+      "blob": "0a9050dc4824c2d15018e03e586a3a3df09b2621",
+      "words": 406,
+      "examples": [],
+      "reference": "references/guide/directives.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Directives",
+      "title": "Attribute directives",
+      "url": "https://angular.dev/guide/directives/attribute-directives",
+      "contentPath": "guide/directives/attribute-directives",
+      "alsoIn": [],
+      "blob": "ad50cc276f2e629108f065b15f65ca6549cc362a",
+      "words": 676,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/app.component.1.html",
+          "blob": "c62da76bd2b770dd1bbae8c00fba103792a2d18f"
+        },
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/app.component.html",
+          "blob": "0cdbd30cf75ab1122d994b11b76c7aaaa863f46d"
+        },
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/app.component.ts",
+          "blob": "53ae0d2dd7c705eb64355c4427887c59a9aefe7d"
+        },
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/highlight.directive.1.ts",
+          "blob": "a94bbcbaeddfbbe8b15e5e570eeca3995b402ce9"
+        },
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/highlight.directive.2.ts",
+          "blob": "198cfaa3ecc3388318ee3761597cf8b40d9d2f14"
+        },
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/highlight.directive.3.ts",
+          "blob": "9fbd53aa352c1d6ac9bc017655155a92e7d8779e"
+        },
+        {
+          "path": "adev/src/content/examples/attribute-directives/src/app/highlight.directive.ts",
+          "blob": "64c26e0b2380e1b4f35f1fec807f005a458b0982"
+        }
+      ],
+      "reference": "references/guide/directives.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Directives",
+      "title": "Structural directives",
+      "url": "https://angular.dev/guide/directives/structural-directives",
+      "contentPath": "guide/directives/structural-directives",
+      "alsoIn": [],
+      "blob": "13ce47f57f88bde057177ee438ec3b19ca55f2e8",
+      "words": 1705,
+      "examples": [],
+      "reference": "references/guide/directives.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Directives",
+      "title": "Directive composition API",
+      "url": "https://angular.dev/guide/directives/directive-composition-api",
+      "contentPath": "guide/directives/directive-composition-api",
+      "alsoIn": [],
+      "blob": "035c2ee6f2d56ca5132628465208ce97f12e2aa8",
+      "words": 1221,
+      "examples": [],
+      "reference": "references/guide/directives.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Directives",
+      "title": "Optimizing images with NgOptimizedImage",
+      "url": "https://angular.dev/guide/image-optimization",
+      "contentPath": "guide/image-optimization",
+      "alsoIn": [
+        "Best Practices"
+      ],
+      "blob": "fdb16fa9a56a1c2e1a52d6765d247b0f2a214fcc",
+      "words": 3770,
+      "examples": [],
+      "reference": "references/guide/image-optimization.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/di",
+      "contentPath": "guide/di/overview",
+      "alsoIn": [],
+      "blob": "7142858bb1f940ccc72195b80ab0be17da46e454",
+      "words": 884,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Creating and using services",
+      "url": "https://angular.dev/guide/di/creating-and-using-services",
+      "contentPath": "guide/di/creating-and-using-services",
+      "alsoIn": [],
+      "blob": "10034ca916653c9aec42067db3be6cbf20fd4422",
+      "words": 839,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Lazy loading services",
+      "url": "https://angular.dev/guide/di/lazy-loading-services",
+      "contentPath": "guide/di/lazy-loading-services",
+      "alsoIn": [
+        "Best Practices"
+      ],
+      "blob": "25b1d708a3b2b933ee7cb5f708e767147be9d69d",
+      "words": 492,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Defining dependency providers",
+      "url": "https://angular.dev/guide/di/defining-dependency-providers",
+      "contentPath": "guide/di/defining-dependency-providers",
+      "alsoIn": [],
+      "blob": "9f11ca2f6ab9e7dfe456eec28fb7dfbc5c9e27d5",
+      "words": 3393,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Injection context",
+      "url": "https://angular.dev/guide/di/dependency-injection-context",
+      "contentPath": "guide/di/dependency-injection-context",
+      "alsoIn": [],
+      "blob": "e9c78053f08d16964c2c1d176e6bfe408ad16dae",
+      "words": 451,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Hierarchical injectors",
+      "url": "https://angular.dev/guide/di/hierarchical-dependency-injection",
+      "contentPath": "guide/di/hierarchical-dependency-injection",
+      "alsoIn": [],
+      "blob": "5bad05531c638347041adf68efbb56318b140c96",
+      "words": 6070,
+      "examples": [],
+      "reference": "references/guide/di-hierarchy.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Optimizing injection tokens",
+      "url": "https://angular.dev/guide/di/lightweight-injection-tokens",
+      "contentPath": "guide/di/lightweight-injection-tokens",
+      "alsoIn": [],
+      "blob": "314580ed5e11fe288738215cf5b7bdb083e2d888",
+      "words": 1266,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "DI in action",
+      "url": "https://angular.dev/guide/di/di-in-action",
+      "contentPath": "guide/di/di-in-action",
+      "alsoIn": [],
+      "blob": "de0b7f5dceb67ab0e8cc87a25ad40489c6cd982a",
+      "words": 349,
+      "examples": [],
+      "reference": "references/guide/di.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Dependency Injection",
+      "title": "Debugging and troubleshooting DI",
+      "url": "https://angular.dev/guide/di/debugging-and-troubleshooting-di",
+      "contentPath": "guide/di/debugging-and-troubleshooting-di",
+      "alsoIn": [],
+      "blob": "8407acc0053a2b0547c0b0dccb4d22a88bfdc0af",
+      "words": 4109,
+      "examples": [],
+      "reference": "references/guide/di-hierarchy.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/routing",
+      "contentPath": "guide/routing/overview",
+      "alsoIn": [],
+      "blob": "320215d5afb9b2199aa6d72bb98e19d76249401c",
+      "words": 296,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Define routes",
+      "url": "https://angular.dev/guide/routing/define-routes",
+      "contentPath": "guide/routing/define-routes",
+      "alsoIn": [],
+      "blob": "3651abd8d35bd9253cc3b7901b2c5594104c394e",
+      "words": 1851,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Route Loading Strategies",
+      "url": "https://angular.dev/guide/routing/loading-strategies",
+      "contentPath": "guide/routing/loading-strategies",
+      "alsoIn": [
+        "Best Practices"
+      ],
+      "blob": "dfdd13c7348141f6c3029fd3c1b35f765da3dc6c",
+      "words": 605,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Show routes with Outlets",
+      "url": "https://angular.dev/guide/routing/show-routes-with-outlets",
+      "contentPath": "guide/routing/show-routes-with-outlets",
+      "alsoIn": [],
+      "blob": "be7b8057d894d0d36c99ef6e0169b91a7249a6a8",
+      "words": 853,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Navigate to routes",
+      "url": "https://angular.dev/guide/routing/navigate-to-routes",
+      "contentPath": "guide/routing/navigate-to-routes",
+      "alsoIn": [],
+      "blob": "39fa70c500de96290d02da165594e7de3097b6d3",
+      "words": 1206,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Read route state",
+      "url": "https://angular.dev/guide/routing/read-route-state",
+      "contentPath": "guide/routing/read-route-state",
+      "alsoIn": [],
+      "blob": "67712c1c87267d287054e0eab54b101918468c2b",
+      "words": 1427,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Redirecting routes",
+      "url": "https://angular.dev/guide/routing/redirecting-routes",
+      "contentPath": "guide/routing/redirecting-routes",
+      "alsoIn": [],
+      "blob": "734c684b3de4d075b8a25aaf329348084ce0a925",
+      "words": 890,
+      "examples": [],
+      "reference": "references/guide/routing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Control route access with guards",
+      "url": "https://angular.dev/guide/routing/route-guards",
+      "contentPath": "guide/routing/route-guards",
+      "alsoIn": [],
+      "blob": "4176ec7f3ff2b42a31500bbfa5993a2b3e2b734b",
+      "words": 1296,
+      "examples": [],
+      "reference": "references/guide/routing-data.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Route data resolvers",
+      "url": "https://angular.dev/guide/routing/data-resolvers",
+      "contentPath": "guide/routing/data-resolvers",
+      "alsoIn": [],
+      "blob": "831dec66d59fb82829dc541f90e86faa5e2ba204",
+      "words": 1515,
+      "examples": [],
+      "reference": "references/guide/routing-data.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Data fetching with resources",
+      "url": "https://angular.dev/guide/routing/data-fetching-with-resources",
+      "contentPath": "guide/routing/data-fetching-with-resources",
+      "alsoIn": [],
+      "blob": "b7d8839f444b463b95e45f98f78ea82832730758",
+      "words": 2035,
+      "examples": [],
+      "reference": "references/guide/routing-data.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Error boundaries",
+      "url": "https://angular.dev/guide/routing/error-boundaries",
+      "contentPath": "guide/routing/error-boundaries",
+      "alsoIn": [],
+      "blob": "f382976c7bbdde15b199e482d2da30c22f26fa0a",
+      "words": 992,
+      "examples": [],
+      "reference": "references/guide/routing-data.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Lifecycle and events",
+      "url": "https://angular.dev/guide/routing/lifecycle-and-events",
+      "contentPath": "guide/routing/lifecycle-and-events",
+      "alsoIn": [],
+      "blob": "1a03d603b7b168f04e551f9e16605086f0a6273f",
+      "words": 1223,
+      "examples": [],
+      "reference": "references/guide/routing-data.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Testing routing and navigation",
+      "url": "https://angular.dev/guide/routing/testing",
+      "contentPath": "guide/routing/testing",
+      "alsoIn": [],
+      "blob": "5e5c7dc81fa6ebafbd93a0ceacc07c9527fa00cb",
+      "words": 1319,
+      "examples": [],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Other routing tasks",
+      "url": "https://angular.dev/guide/routing/common-router-tasks",
+      "contentPath": "guide/routing/common-router-tasks",
+      "alsoIn": [],
+      "blob": "1d195150fcbb6fa25d24830fe827cb9b5ed4b563",
+      "words": 1408,
+      "examples": [],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Creating custom route matches",
+      "url": "https://angular.dev/guide/routing/routing-with-urlmatcher",
+      "contentPath": "guide/routing/routing-with-urlmatcher",
+      "alsoIn": [],
+      "blob": "2b31a1328164b9b09e768b7fad771b99dda24896",
+      "words": 656,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/routing-with-urlmatcher/src/app/app.html",
+          "blob": "2be7a1b0522468453c771aa7658e073104fd87ac"
+        },
+        {
+          "path": "adev/src/content/examples/routing-with-urlmatcher/src/app/app.routes.ts",
+          "blob": "1a8e99ae227eb470e30426d2fe3c2a4a3608bc70"
+        },
+        {
+          "path": "adev/src/content/examples/routing-with-urlmatcher/src/app/profile/profile.html",
+          "blob": "c7bd65f59e52d341f7019054c93992ed39f87404"
+        }
+      ],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Rendering strategies",
+      "url": "https://angular.dev/guide/routing/rendering-strategies",
+      "contentPath": "guide/routing/rendering-strategies",
+      "alsoIn": [],
+      "blob": "621968d05ad8937276e5fc4a1189d4fe9e2be913",
+      "words": 804,
+      "examples": [],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Customizing route behavior",
+      "url": "https://angular.dev/guide/routing/customizing-route-behavior",
+      "contentPath": "guide/routing/customizing-route-behavior",
+      "alsoIn": [],
+      "blob": "9d54d0f0700e6f94453d323121122c7280bb0575",
+      "words": 3637,
+      "examples": [],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Router reference",
+      "url": "https://angular.dev/guide/routing/router-reference",
+      "contentPath": "guide/routing/router-reference",
+      "alsoIn": [],
+      "blob": "1af5978b61e35c4d874e0d87bb3f61184b84d5e6",
+      "words": 1129,
+      "examples": [],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Routing",
+      "title": "Route transition animations",
+      "url": "https://angular.dev/guide/routing/route-transition-animations",
+      "contentPath": "guide/routing/route-transition-animations",
+      "alsoIn": [],
+      "blob": "46ff0c44f359cea6039b15fed4938d05c91c4849",
+      "words": 1079,
+      "examples": [],
+      "reference": "references/guide/routing-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/forms",
+      "contentPath": "guide/forms/overview",
+      "alsoIn": [],
+      "blob": "0f18697f6979a0b4ff8f32f9415f6a1d5231be69",
+      "words": 2536,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/forms-overview/src/app/reactive/favorite-color/favorite-color.component.spec.ts",
+          "blob": "24cbf34fd04620c9772697ce9d530635c4af7be3"
+        },
+        {
+          "path": "adev/src/content/examples/forms-overview/src/app/reactive/favorite-color/favorite-color.component.ts",
+          "blob": "33efad518b59e83882f31d602d2029d94e205ede"
+        },
+        {
+          "path": "adev/src/content/examples/forms-overview/src/app/template/favorite-color/favorite-color.component.spec.ts",
+          "blob": "de0673652daf8625a34c83dc12333b59351d976c"
+        },
+        {
+          "path": "adev/src/content/examples/forms-overview/src/app/template/favorite-color/favorite-color.component.ts",
+          "blob": "de0a125415b54335b8911ad67bd358a7d398c356"
+        }
+      ],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/forms/signals/overview",
+      "contentPath": "guide/forms/signals/overview",
+      "alsoIn": [],
+      "blob": "d8b76649945833cd9b4e2934c34f5e8deac11065",
+      "words": 326,
+      "examples": [],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Form models",
+      "url": "https://angular.dev/guide/forms/signals/models",
+      "contentPath": "guide/forms/signals/models",
+      "alsoIn": [],
+      "blob": "01c1cbd8c35a66810fa4b989097886fb258f4a50",
+      "words": 1881,
+      "examples": [],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Form model design",
+      "url": "https://angular.dev/guide/forms/signals/model-design",
+      "contentPath": "guide/forms/signals/designing-your-form-model",
+      "alsoIn": [],
+      "blob": "e4389576f2b2a79562dd3b64dbb3f16553cf9cdc",
+      "words": 2779,
+      "examples": [],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Field state management",
+      "url": "https://angular.dev/guide/forms/signals/field-state-management",
+      "contentPath": "guide/forms/signals/field-state-management",
+      "alsoIn": [],
+      "blob": "e0d846594a1b89c955bfbcece1f456ca747ae9f4",
+      "words": 3996,
+      "examples": [],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Validation",
+      "url": "https://angular.dev/guide/forms/signals/validation",
+      "contentPath": "guide/forms/signals/validation",
+      "alsoIn": [],
+      "blob": "2cce52e624259032033b00ae08cb1ad8f65e1cf6",
+      "words": 3575,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/signal-forms/src/login-validation-complete/app/app.css",
+          "blob": "08907951c7e8e494700d1df02f4e98fb411d6383"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/login-validation-complete/app/app.html",
+          "blob": "be530d8e9009e34a2fe7895c5d8660bcfefc632d"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/login-validation-complete/app/app.ts",
+          "blob": "91625515baf4b576f8d611b640654d1c530b6fd3"
+        }
+      ],
+      "reference": "references/guide/forms-signals-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Form logic",
+      "url": "https://angular.dev/guide/forms/signals/form-logic",
+      "contentPath": "guide/forms/signals/form-logic",
+      "alsoIn": [],
+      "blob": "df311bba5d1f897311bd1ae3a072618813350d57",
+      "words": 2859,
+      "examples": [],
+      "reference": "references/guide/forms-signals-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Cross-field logic",
+      "url": "https://angular.dev/guide/forms/signals/cross-field-logic",
+      "contentPath": "guide/forms/signals/cross-field-logic",
+      "alsoIn": [],
+      "blob": "cdd92b17350681d5eafd89c93d4f2c60557f791b",
+      "words": 1468,
+      "examples": [],
+      "reference": "references/guide/forms-signals-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Form submission",
+      "url": "https://angular.dev/guide/forms/signals/form-submission",
+      "contentPath": "guide/forms/signals/form-submission",
+      "alsoIn": [],
+      "blob": "72012936a257dac78a8a0268962cc4edc868950a",
+      "words": 1622,
+      "examples": [],
+      "reference": "references/guide/forms-signals-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Schemas",
+      "url": "https://angular.dev/guide/forms/signals/schemas",
+      "contentPath": "guide/forms/signals/schemas",
+      "alsoIn": [],
+      "blob": "12125844103d099cf7c03230e2c1467e8fca369e",
+      "words": 1306,
+      "examples": [],
+      "reference": "references/guide/forms-signals-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Field metadata",
+      "url": "https://angular.dev/guide/forms/signals/field-metadata",
+      "contentPath": "guide/forms/signals/field-metadata",
+      "alsoIn": [],
+      "blob": "77fdc825942186617ef6446459cb4fa2931b1bd5",
+      "words": 2825,
+      "examples": [],
+      "reference": "references/guide/forms-signals-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Async operations",
+      "url": "https://angular.dev/guide/forms/signals/async-operations",
+      "contentPath": "guide/forms/signals/async-operations",
+      "alsoIn": [],
+      "blob": "7a4efe6f88b93422ab51bd133eab75277bc868ba",
+      "words": 3494,
+      "examples": [],
+      "reference": "references/guide/forms-signals-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Dynamic forms with JSON",
+      "url": "https://angular.dev/guide/forms/signals/dynamic-forms-with-json",
+      "contentPath": "guide/forms/signals/dynamic-forms-with-json",
+      "alsoIn": [],
+      "blob": "0f3f71e8fec8caced739b7efc26c5ad5a6ffd4bd",
+      "words": 2694,
+      "examples": [],
+      "reference": "references/guide/forms-signals-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Custom controls",
+      "url": "https://angular.dev/guide/forms/signals/custom-controls",
+      "contentPath": "guide/forms/signals/custom-controls",
+      "alsoIn": [],
+      "blob": "720661a01edff1ba2bcae770dc737a4f93d0af83",
+      "words": 2658,
+      "examples": [],
+      "reference": "references/guide/forms-signals-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Testing",
+      "url": "https://angular.dev/guide/forms/signals/testing",
+      "contentPath": "guide/forms/signals/testing",
+      "alsoIn": [],
+      "blob": "2263a009aef369946339dbcfb88f02016a41d507",
+      "words": 1251,
+      "examples": [],
+      "reference": "references/guide/forms-signals-advanced.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Comparison with other form systems",
+      "url": "https://angular.dev/guide/forms/signals/comparison",
+      "contentPath": "guide/forms/signals/comparison",
+      "alsoIn": [],
+      "blob": "8524ce9d652dde638e91dbaf0869c94134122b84",
+      "words": 932,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/signal-forms/src/comparison/app/reactive-forms.ts",
+          "blob": "1bb92072af71ef087a23ead4421e031a33e0d35e"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/comparison/app/signal-forms.ts",
+          "blob": "d72f65ade13d443f1f80d43fdf45252f0976ccff"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/comparison/app/template-driven-forms.ts",
+          "blob": "d0765c507d357f5027d2fc97f96434834f6f01bc"
+        }
+      ],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Migrating from Reactive Forms",
+      "url": "https://angular.dev/guide/forms/signals/migration",
+      "contentPath": "guide/forms/signals/migration",
+      "alsoIn": [],
+      "blob": "d75840f69c0209f3d46b0f71a6b8c2300f9cf0db",
+      "words": 1693,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/signal-forms/src/compat-form-control-integration/app/app.html",
+          "blob": "9ecc568fe5fe1cda0b778743dcac7a28ae4cd8e0"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/compat-form-control-integration/app/app.ts",
+          "blob": "57ba4ff9c65171b3a935f9bbfa8079cadb4cd2ad"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/compat-form-group-integration/app/app.html",
+          "blob": "fa9c8e14dab3d5eac15b14f0639b328df44b7825"
+        },
+        {
+          "path": "adev/src/content/examples/signal-forms/src/compat-form-group-integration/app/app.ts",
+          "blob": "dabfc77163dcfb9821561ad2784bf6f3bdee200f"
+        }
+      ],
+      "reference": "references/guide/forms-signals.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Reactive forms",
+      "url": "https://angular.dev/guide/forms/reactive-forms",
+      "contentPath": "guide/forms/reactive-forms",
+      "alsoIn": [],
+      "blob": "4a287053244a940a79be0028f2d7b46c2474926d",
+      "words": 5083,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/app.component.1.html",
+          "blob": "4a4410085e1f557dd3a43f60d6897c901d8b5399"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/name-editor/name-editor.component.html",
+          "blob": "a9206184ee8dd036307d6c3a50deb7787340401d"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/name-editor/name-editor.component.ts",
+          "blob": "2c4da495e93da806f08081b7332a42131ff6183b"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/profile-editor/profile-editor.component.1.html",
+          "blob": "8b5cea04be102f383a6fdd16529ef39eea700983"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/profile-editor/profile-editor.component.1.ts",
+          "blob": "843f1a2b3886999eb50097b0bf686b436073597e"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/profile-editor/profile-editor.component.2.ts",
+          "blob": "5833d2f9c7a01ab47d3d69761432a2d64ed0d279"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/profile-editor/profile-editor.component.html",
+          "blob": "46e664a7ee2373eb0c10947665c8285b1d054920"
+        },
+        {
+          "path": "adev/src/content/examples/reactive-forms/src/app/profile-editor/profile-editor.component.ts",
+          "blob": "e657e0d53262b7da027cb9c66f428dfbe769003b"
+        }
+      ],
+      "reference": "references/guide/forms-reactive.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Strictly typed reactive forms",
+      "url": "https://angular.dev/guide/forms/typed-forms",
+      "contentPath": "guide/forms/typed-forms",
+      "alsoIn": [],
+      "blob": "fb6b6f3c8f4e748a54068f35e7c47460c3f1b2bc",
+      "words": 1058,
+      "examples": [],
+      "reference": "references/guide/forms-reactive.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Template-driven forms",
+      "url": "https://angular.dev/guide/forms/template-driven-forms",
+      "contentPath": "guide/forms/template-driven-forms",
+      "alsoIn": [],
+      "blob": "b847642eb19eee0f690d62ba966bc2dee8a51080",
+      "words": 3126,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/forms/src/app/actor-form/actor-form.component.html",
+          "blob": "7119692e8d6c8178fee512d9b213c73585f412d9"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/app/actor-form/actor-form.component.ts",
+          "blob": "c66738819bc0336ba2ebfa49535371588f2071f3"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/app/actor.ts",
+          "blob": "a6b68135ee80df8a6053727f6965806a54613aab"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/app/app.component.html",
+          "blob": "2382d9e1f1786a78c113f63c70f8c0e417e19366"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/app/app.component.ts",
+          "blob": "dad49c1f8522eab8aebef8fb8985d251ecf31e2c"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/assets/forms.css",
+          "blob": "13ffbe1203d7d372804f9182e4e77a69e5d3ae54"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/index.html",
+          "blob": "333d72d527f26344d4d744831bac7d87b9854e77"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/main.ts",
+          "blob": "f6d4d5194a8ab83f986143d1f07788b39da32be7"
+        },
+        {
+          "path": "adev/src/content/examples/forms/src/styles.1.css",
+          "blob": "95a0e16bbd53bebfdf79cb4b21e26fc2afe10c43"
+        }
+      ],
+      "reference": "references/guide/forms-template-and-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Validate form input",
+      "url": "https://angular.dev/guide/forms/form-validation",
+      "contentPath": "guide/forms/form-validation",
+      "alsoIn": [],
+      "blob": "099f5fec27dd7560602ffe8abcd9b3a5360553fe",
+      "words": 2956,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/reactive/actor-form-reactive.component.1.ts",
+          "blob": "971c20a6653149f5c4964b2c4fd8b2425c44cee5"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/reactive/actor-form-reactive.component.2.ts",
+          "blob": "661b5ad73a98b7044162ea3377e7f5d3593cd952"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/reactive/actor-form-reactive.component.html",
+          "blob": "7960e7180fbd905505186a869466f2dd83db471f"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/shared/forbidden-name.directive.ts",
+          "blob": "de44d1b85f1a4466857b1f38440519a398123181"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+          "blob": "d67f6f98b0be6394100a3e3ef8a5da613ed69f9f"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/shared/unambiguous-role.directive.ts",
+          "blob": "5835e955b1103cc23ce80257efef865127c2d510"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/app/template/actor-form-template.component.html",
+          "blob": "1e3f93b8ff16d0e0ea8533813f00f37a7dafcc4b"
+        },
+        {
+          "path": "adev/src/content/examples/form-validation/src/assets/forms.css",
+          "blob": "d42a8bed524351c9b44d2ad9f0755d12b0aee574"
+        }
+      ],
+      "reference": "references/guide/forms-template-and-validation.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Forms",
+      "title": "Building dynamic forms",
+      "url": "https://angular.dev/guide/forms/dynamic-forms",
+      "contentPath": "guide/forms/dynamic-forms",
+      "alsoIn": [],
+      "blob": "5bdcf09025f16af3f07ebaeb618862062fd41c57",
+      "words": 1086,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/app.component.ts",
+          "blob": "15161047dd092c0b7bd4d9e0497aabf7d986a800"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/dynamic-form-question.component.html",
+          "blob": "90e403b0a1d2ff72f50a22b6ff9517fcbc417657"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/dynamic-form-question.component.ts",
+          "blob": "21beb5ecf04bc5a9940750efc330a9a97e6ce735"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/dynamic-form.component.html",
+          "blob": "ba282d40069129325569fe40503dd06bfc620b91"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/dynamic-form.component.ts",
+          "blob": "aeaff3d65ebcca82b75444f595977c25bada68c4"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/question-base.ts",
+          "blob": "215739555b38ac3388b0c752f8659a767a6570ff"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+          "blob": "3c26ea7f3a94758f3b596e37851a02ef5e5c406c"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/question-dropdown.ts",
+          "blob": "f989c7bca4754705550369e46018dda298571d0c"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/question-textbox.ts",
+          "blob": "0d7969783122ee89f970e3b080c88ba4c0bee3fa"
+        },
+        {
+          "path": "adev/src/content/examples/dynamic-form/src/app/question.service.ts",
+          "blob": "fc7d323d5247426d4f620532f285211f62869a98"
+        }
+      ],
+      "reference": "references/guide/forms-reactive.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "HTTP Client",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/http",
+      "contentPath": "guide/http/overview",
+      "alsoIn": [],
+      "blob": "6bbbd312a698dd5b6dd990f0e38396eb0cb625e4",
+      "words": 96,
+      "examples": [],
+      "reference": "references/guide/http.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "HTTP Client",
+      "title": "Setting up HttpClient",
+      "url": "https://angular.dev/guide/http/setup",
+      "contentPath": "guide/http/setup",
+      "alsoIn": [],
+      "blob": "a05fc21a1d12ebc4de5b48acf8d31b254af20c93",
+      "words": 722,
+      "examples": [],
+      "reference": "references/guide/http.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "HTTP Client",
+      "title": "Making requests",
+      "url": "https://angular.dev/guide/http/making-requests",
+      "contentPath": "guide/http/making-requests",
+      "alsoIn": [],
+      "blob": "07b4d97358ddd65889b82a1a33a826cf2f75625c",
+      "words": 3685,
+      "examples": [],
+      "reference": "references/guide/http.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "HTTP Client",
+      "title": "Reactive data fetching with httpResource",
+      "url": "https://angular.dev/guide/http/http-resource",
+      "contentPath": "guide/http/http-resource",
+      "alsoIn": [],
+      "blob": "ffe1949cca5319a017ae9d8b2d3c2d74fc3f58f6",
+      "words": 690,
+      "examples": [],
+      "reference": "references/guide/http.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "HTTP Client",
+      "title": "Intercepting requests and responses",
+      "url": "https://angular.dev/guide/http/interceptors",
+      "contentPath": "guide/http/interceptors",
+      "alsoIn": [],
+      "blob": "cbf599173cc4a7a0b1fdbed2b131c3d84d6e5bea",
+      "words": 1623,
+      "examples": [],
+      "reference": "references/guide/http.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "HTTP Client",
+      "title": "Testing",
+      "url": "https://angular.dev/guide/http/testing",
+      "contentPath": "guide/http/testing",
+      "alsoIn": [],
+      "blob": "77ca5be08c1e0833ffcb7cd6629fcf5c43ed1dbb",
+      "words": 1038,
+      "examples": [],
+      "reference": "references/guide/http.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Server-side & hybrid-rendering",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/performance",
+      "contentPath": "guide/performance/overview",
+      "alsoIn": [],
+      "blob": "1a07df88e1290900b8b0099785cf40acc74cb160",
+      "words": 154,
+      "examples": [],
+      "reference": "references/guide/ssr.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Server-side & hybrid-rendering",
+      "title": "Server-side and hybrid-rendering",
+      "url": "https://angular.dev/guide/ssr",
+      "contentPath": "guide/ssr",
+      "alsoIn": [
+        "Best Practices"
+      ],
+      "blob": "e281244470e3411379ae24449a776527b89145ec",
+      "words": 4112,
+      "examples": [],
+      "reference": "references/guide/ssr.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Server-side & hybrid-rendering",
+      "title": "Hydration",
+      "url": "https://angular.dev/guide/hydration",
+      "contentPath": "guide/hydration",
+      "alsoIn": [],
+      "blob": "93bd1ba720d360644451cc27706234d99fbc1ef1",
+      "words": 2725,
+      "examples": [],
+      "reference": "references/guide/ssr.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Server-side & hybrid-rendering",
+      "title": "Incremental Hydration",
+      "url": "https://angular.dev/guide/incremental-hydration",
+      "contentPath": "guide/incremental-hydration",
+      "alsoIn": [],
+      "blob": "e4ac873f9efb8d8444b76082b39d8043a73fe638",
+      "words": 1497,
+      "examples": [],
+      "reference": "references/guide/ssr.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/testing",
+      "contentPath": "guide/testing/overview",
+      "alsoIn": [],
+      "blob": "598d0ff3cd88d96a036c3efc2bdcd3c747ef2f29",
+      "words": 1346,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Basics of testing components",
+      "url": "https://angular.dev/guide/testing/components-basics",
+      "contentPath": "guide/testing/components-basics",
+      "alsoIn": [],
+      "blob": "a0caa5d7037caf6f253096cd147855e8e40cbfac",
+      "words": 1537,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Component testing scenarios",
+      "url": "https://angular.dev/guide/testing/components-scenarios",
+      "contentPath": "guide/testing/components-scenarios",
+      "alsoIn": [],
+      "blob": "183cb0d2170e95ad0af692e99448c07fe9814751",
+      "words": 5666,
+      "examples": [],
+      "reference": "references/guide/testing-scenarios.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Testing services",
+      "url": "https://angular.dev/guide/testing/services",
+      "contentPath": "guide/testing/services",
+      "alsoIn": [],
+      "blob": "7af23d220098f7db2df015a5be41d7bf03251b94",
+      "words": 861,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Testing attribute directives",
+      "url": "https://angular.dev/guide/testing/attribute-directives",
+      "contentPath": "guide/testing/attribute-directives",
+      "alsoIn": [],
+      "blob": "7bb4e4ff366d246433f030fcf152c73e1df8d4a2",
+      "words": 814,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Testing pipes",
+      "url": "https://angular.dev/guide/testing/pipes",
+      "contentPath": "guide/testing/pipes",
+      "alsoIn": [],
+      "blob": "c2deb6df4dbade20f699e2d18d974ea3343bddeb",
+      "words": 333,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Debugging tests",
+      "url": "https://angular.dev/guide/testing/debugging",
+      "contentPath": "guide/testing/debugging",
+      "alsoIn": [],
+      "blob": "c40d0d463e80fe467ded67a73b7b44fc0c9da7f6",
+      "words": 161,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Code coverage",
+      "url": "https://angular.dev/guide/testing/code-coverage",
+      "contentPath": "guide/testing/code-coverage",
+      "alsoIn": [],
+      "blob": "d50ed8ebb7d39fbf4b72b844795bfd55898db01e",
+      "words": 399,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Testing utility APIs",
+      "url": "https://angular.dev/guide/testing/utility-apis",
+      "contentPath": "guide/testing/utility-apis",
+      "alsoIn": [],
+      "blob": "e6f3c70e3b5cd053730088551f02fb54d89c9905",
+      "words": 1763,
+      "examples": [],
+      "reference": "references/guide/testing.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Component harnesses overview",
+      "url": "https://angular.dev/guide/testing/component-harnesses-overview",
+      "contentPath": "guide/testing/component-harnesses-overview",
+      "alsoIn": [],
+      "blob": "48d4f27109d868ddf937ec0015129ecaf44a7733",
+      "words": 460,
+      "examples": [],
+      "reference": "references/guide/testing-harnesses.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Using component harnesses in tests",
+      "url": "https://angular.dev/guide/testing/using-component-harnesses",
+      "contentPath": "guide/testing/using-component-harnesses",
+      "alsoIn": [],
+      "blob": "04040d7150a67784ac214d528e5ce19faf7d65c7",
+      "words": 1399,
+      "examples": [],
+      "reference": "references/guide/testing-harnesses.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Creating harnesses for your components",
+      "url": "https://angular.dev/guide/testing/creating-component-harnesses",
+      "contentPath": "guide/testing/creating-component-harnesses",
+      "alsoIn": [],
+      "blob": "5cfb2455a00a680cc9c7f57d21134fc61eb178d2",
+      "words": 1892,
+      "examples": [],
+      "reference": "references/guide/testing-harnesses.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Adding harness support for additional testing environments",
+      "url": "https://angular.dev/guide/testing/component-harnesses-testing-environments",
+      "contentPath": "guide/testing/component-harnesses-testing-environments",
+      "alsoIn": [],
+      "blob": "ada708ab62f017b3a12db550397a17561ec65fa1",
+      "words": 751,
+      "examples": [],
+      "reference": "references/guide/testing-harnesses.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Migrating from Karma to Vitest",
+      "url": "https://angular.dev/guide/testing/migrating-to-vitest",
+      "contentPath": "guide/testing/migrating-to-vitest",
+      "alsoIn": [],
+      "blob": "5f5ff90e1daa6275a164158e47282cdce31aeb6e",
+      "words": 1482,
+      "examples": [],
+      "reference": "references/guide/testing-runners.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Testing with Karma and Jasmine",
+      "url": "https://angular.dev/guide/testing/karma",
+      "contentPath": "guide/testing/karma",
+      "alsoIn": [],
+      "blob": "272b58b39ca84ed6fbb6195fe9ee89086bb8dd0d",
+      "words": 854,
+      "examples": [],
+      "reference": "references/guide/testing-runners.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Testing",
+      "title": "Zone.js Testing Utilities",
+      "url": "https://angular.dev/guide/testing/zone-js-testing-utilities",
+      "contentPath": "guide/testing/zone-js-testing-utilities",
+      "alsoIn": [],
+      "blob": "ce459dc873e00fefe88f9142121f4ab2b99b8fa5",
+      "words": 256,
+      "examples": [],
+      "reference": "references/guide/testing-scenarios.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/aria/overview",
+      "contentPath": "guide/aria/overview",
+      "alsoIn": [],
+      "blob": "ff581e81003e3ecfad71d90bffc5a36d49c5eb28",
+      "words": 652,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/app/app.css",
+          "blob": "1fc0cf49bc32af846cdfbc9f0f4d70188063631a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/app/app.html",
+          "blob": "76cd5c4131072ed1becc2e1c6b6593a5b5a5bf29"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/material/app/app.css",
+          "blob": "2cea18afc144604201790ebbcc6d1090100f3d75"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/material/app/app.html",
+          "blob": "87d34cd71ddf205efae9bb1b2cb851ea9fc492c1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/material/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/retro/app/app.css",
+          "blob": "bfbde903f0a513917b66b9f64c6ea6d2107e847c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/retro/app/app.html",
+          "blob": "7c6aa2f538c48d8fe280a7f9e8ba3b500ca6a82e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/retro/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Accordion",
+      "url": "https://angular.dev/guide/aria/accordion",
+      "contentPath": "guide/aria/accordion",
+      "alsoIn": [],
+      "blob": "d070fa8517c0727d46fdab71f7c1e9d7efa81644",
+      "words": 846,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/basic/app/app.css",
+          "blob": "087565cb38b4cebc97326a40a7fc22e054923758"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/basic/app/app.html",
+          "blob": "e44f5d0e5af1f5d24ba8c4a6f66a55d8aaae5af8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/basic/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/material/app/app.css",
+          "blob": "bd691050aa8e90ee4e72d6343767f0f7a5ca10b6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/material/app/app.html",
+          "blob": "d04a1fcabc8a3f21afdf6454f28af3473cfe8a6c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/material/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/retro/app/app.css",
+          "blob": "e58ac63982854ca42be3c61a9ae4fda8957cc61e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/retro/app/app.html",
+          "blob": "ce9b5674203ab21497963f7e5037cd27b2e30739"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/disabled-focusable/retro/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/basic/app/app.css",
+          "blob": "087565cb38b4cebc97326a40a7fc22e054923758"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/basic/app/app.html",
+          "blob": "7c49bde5b7b6f64936bdf877f0d298390a4026c4"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/basic/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/material/app/app.css",
+          "blob": "bd691050aa8e90ee4e72d6343767f0f7a5ca10b6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/material/app/app.html",
+          "blob": "3c8a33069ef57bf17be62de68fbc6bcdcb08c1ef"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/material/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/retro/app/app.css",
+          "blob": "913fdc3a7341b25a15d51e91679c531cbf573cfe"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/retro/app/app.html",
+          "blob": "bed63470483bf49b5cf052c72b986f85a945e975"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/multi-expansion/retro/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/basic/app/app.css",
+          "blob": "087565cb38b4cebc97326a40a7fc22e054923758"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/basic/app/app.html",
+          "blob": "5115cdae88d5ef0549cee6403faced31653f6abe"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/basic/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/material/app/app.css",
+          "blob": "bd691050aa8e90ee4e72d6343767f0f7a5ca10b6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/material/app/app.html",
+          "blob": "e848c2b113a54ce9d24c2a95f99283175ef2cacf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/material/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/retro/app/app.css",
+          "blob": "913fdc3a7341b25a15d51e91679c531cbf573cfe"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/retro/app/app.html",
+          "blob": "6da53927589ef8b73455292ebbd739730250e734"
+        },
+        {
+          "path": "adev/src/content/examples/aria/accordion/src/single-expansion/retro/app/app.ts",
+          "blob": "f477cc4f03907e99351513d1c563e877a69ea7a6"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Autocomplete",
+      "url": "https://angular.dev/guide/aria/autocomplete",
+      "contentPath": "guide/aria/autocomplete",
+      "alsoIn": [],
+      "blob": "c9afdf9ec3224ff0e4e261c19f86e9737c518119",
+      "words": 859,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/app/app.css",
+          "blob": "ac7e15c187cd62d66eaaafc834f18867d96f6381"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/app/app.html",
+          "blob": "cbdcec5d8103edbf741e6213618f155058e0481d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/app/app.ts",
+          "blob": "9284abd95e38c167c9870577412df57e559ac6a9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/material/app/app.css",
+          "blob": "8dba0dcfc9f655017d3be6ce8e6bdf6fbadbe008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/material/app/app.html",
+          "blob": "fd203a0720d14234c26d1270bf1ad7d6ecd09df8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/material/app/app.ts",
+          "blob": "5fe6daa42177a5efce8591c0cd65e176146952b6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/retro/app/app.css",
+          "blob": "e797bc2832580229ed8bf6562c00c0c7d3d0fbcf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/retro/app/app.html",
+          "blob": "609c3525a102c50f787b3803643e0132d69eb36a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/retro/app/app.ts",
+          "blob": "050a7d0560e36bed02f9aa4dbb14be751e7f9d4e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/app/app.css",
+          "blob": "ac7e15c187cd62d66eaaafc834f18867d96f6381"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/app/app.html",
+          "blob": "0f8b42c56155cb0d01c73b3985505b3ff5381c2c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/app/app.ts",
+          "blob": "2bf50e878b30b289c8f1df861d1bb977afe0995c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/material/app/app.css",
+          "blob": "8dba0dcfc9f655017d3be6ce8e6bdf6fbadbe008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/material/app/app.html",
+          "blob": "2015b4bd9d62ab5e8ff5d82d82e975c9923f6bf4"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/material/app/app.ts",
+          "blob": "ad1c967ead570383ebefd7175c817dba084df520"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/retro/app/app.css",
+          "blob": "e797bc2832580229ed8bf6562c00c0c7d3d0fbcf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/retro/app/app.html",
+          "blob": "812d907a5b4e8ca3ff56bf950610c4be65459960"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/highlight/retro/app/app.ts",
+          "blob": "f2497e1cb5842c3a2aa0cc651e86b0b87f7321d2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/app/app.css",
+          "blob": "ac7e15c187cd62d66eaaafc834f18867d96f6381"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/app/app.html",
+          "blob": "8532f8f911a0cf5e8a24361606a4f10260fda46b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/app/app.ts",
+          "blob": "87a0642f5a9d9d838bc2e4cda331b6ef073a98b0"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/material/app/app.css",
+          "blob": "8dba0dcfc9f655017d3be6ce8e6bdf6fbadbe008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/material/app/app.html",
+          "blob": "1988ea40178e4ad51ca297cc2b018e11bb6e0ab6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/material/app/app.ts",
+          "blob": "76dc0cdcb89f1445062fbe9d2b3e93f7eff9ee1d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/retro/app/app.css",
+          "blob": "da71dcdb35a6e6d4cf19a4c66575da6758ade4a5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/retro/app/app.html",
+          "blob": "d0cdb745074c9cb301b4949fba6d67890ea39a8f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/retro/app/app.ts",
+          "blob": "5794383052a570d0cfb2e184fa6120052f4b5d1a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/signal-forms/app/app.css",
+          "blob": "5b6af3e19d2013ee6a615c33d735052fff9db759"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/signal-forms/app/app.html",
+          "blob": "ac8bb9e98b1091937311f679267190677332cf37"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/signal-forms/app/app.ts",
+          "blob": "bf94bbcd13f4a7f24527750cccf258a3b403c167"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/signal-forms/app/country-selector.css",
+          "blob": "7a22f8fbe50ff686293683f5973defd507846418"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/signal-forms/app/country-selector.html",
+          "blob": "2e7975e3cca08a321921ca1a63a4d5cb17e12cd2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/signal-forms/app/country-selector.ts",
+          "blob": "d2e7c14777d3d4e10c0164759ef4ce5f4940a9fa"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Combobox",
+      "url": "https://angular.dev/guide/aria/combobox",
+      "contentPath": "guide/aria/combobox",
+      "alsoIn": [],
+      "blob": "09841bccb0aa863e5e0ba5615509ab511a6e41e7",
+      "words": 978,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/app/app.css",
+          "blob": "ac7e15c187cd62d66eaaafc834f18867d96f6381"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/app/app.html",
+          "blob": "cbdcec5d8103edbf741e6213618f155058e0481d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/app/app.ts",
+          "blob": "9284abd95e38c167c9870577412df57e559ac6a9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/material/app/app.css",
+          "blob": "8dba0dcfc9f655017d3be6ce8e6bdf6fbadbe008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/material/app/app.html",
+          "blob": "fd203a0720d14234c26d1270bf1ad7d6ecd09df8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/material/app/app.ts",
+          "blob": "5fe6daa42177a5efce8591c0cd65e176146952b6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/retro/app/app.css",
+          "blob": "e797bc2832580229ed8bf6562c00c0c7d3d0fbcf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/retro/app/app.html",
+          "blob": "609c3525a102c50f787b3803643e0132d69eb36a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/basic/retro/app/app.ts",
+          "blob": "050a7d0560e36bed02f9aa4dbb14be751e7f9d4e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/app/app.css",
+          "blob": "ac7e15c187cd62d66eaaafc834f18867d96f6381"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/app/app.html",
+          "blob": "8532f8f911a0cf5e8a24361606a4f10260fda46b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/app/app.ts",
+          "blob": "87a0642f5a9d9d838bc2e4cda331b6ef073a98b0"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/material/app/app.css",
+          "blob": "8dba0dcfc9f655017d3be6ce8e6bdf6fbadbe008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/material/app/app.html",
+          "blob": "1988ea40178e4ad51ca297cc2b018e11bb6e0ab6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/material/app/app.ts",
+          "blob": "76dc0cdcb89f1445062fbe9d2b3e93f7eff9ee1d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/retro/app/app.css",
+          "blob": "da71dcdb35a6e6d4cf19a4c66575da6758ade4a5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/retro/app/app.html",
+          "blob": "d0cdb745074c9cb301b4949fba6d67890ea39a8f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/autocomplete/src/manual/retro/app/app.ts",
+          "blob": "5794383052a570d0cfb2e184fa6120052f4b5d1a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/basic/app/app.css",
+          "blob": "188030829f0ba835ea514e37defc3ecc44076039"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/basic/app/app.html",
+          "blob": "82b50588eb55bc926e013dd98f441211f88ee0c2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/basic/app/app.ts",
+          "blob": "6c0ad4122ed6ff6f03bf40bfacd2364dc683f403"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/material/app/app.css",
+          "blob": "78e82921ed74388dd87062f1e654f099cfaec3e8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/material/app/app.html",
+          "blob": "82b50588eb55bc926e013dd98f441211f88ee0c2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/material/app/app.ts",
+          "blob": "8b8b3fb8e5807bfc462e4446274b753c82d528c1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/retro/app/app.css",
+          "blob": "31f30c4e47fb20aac6f0815ec165f94506b227af"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/retro/app/app.html",
+          "blob": "82b50588eb55bc926e013dd98f441211f88ee0c2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/datepicker/retro/app/app.ts",
+          "blob": "7f31cdaf837fe4462370e5b1730996566479e47f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/app/app.css",
+          "blob": "a81b6848d9f6b85706470db3c88a8dbeec3335cf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/app/app.html",
+          "blob": "b3ae7e172cc4a2158c77b648c473e281e811d9d6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/app/app.ts",
+          "blob": "1272be2aedea54bcd37f4106371118a68daa092b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/material/app/app.css",
+          "blob": "599dda8b6d7dd8c7e2cc368392b3ab76c6cc2efb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/material/app/app.html",
+          "blob": "b3ae7e172cc4a2158c77b648c473e281e811d9d6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/material/app/app.ts",
+          "blob": "1661728c81e90a42526f434604ef93dcaa874b0c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/retro/app/app.css",
+          "blob": "20a56f37d41b761795a97bd07b7f314adc210343"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/retro/app/app.html",
+          "blob": "b3ae7e172cc4a2158c77b648c473e281e811d9d6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/combobox/src/dialog/retro/app/app.ts",
+          "blob": "aab8177eb46338a249be05d8d23b4025c63c1af9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/app/app.css",
+          "blob": "14e8fd1e8777bd542069382be90236f1c72895e5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/app/app.html",
+          "blob": "557c380443d67413e33fbfe0556f1c3167ea7018"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/app/app.ts",
+          "blob": "1c45c71a7c8e97be106411e5b7b931ad8a45ba8b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/material/app/app.css",
+          "blob": "785ed850162f32d29497a46212c81bc0f8f744c7"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/material/app/app.html",
+          "blob": "557c380443d67413e33fbfe0556f1c3167ea7018"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/material/app/app.ts",
+          "blob": "05d6433ebbd9d213bf0c32887942cf1fd16faf5a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/retro/app/app.css",
+          "blob": "03167f0a34a860c622f5d0f4d75a7af65527b890"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/retro/app/app.html",
+          "blob": "557c380443d67413e33fbfe0556f1c3167ea7018"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/retro/app/app.ts",
+          "blob": "b3690efbb51e5fe6925497c8d68c7e22ed8c51b2"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Grid",
+      "url": "https://angular.dev/guide/aria/grid",
+      "contentPath": "guide/aria/grid",
+      "alsoIn": [],
+      "blob": "3cc5621c9e475f55ab9d8b9e36c9211ef41cc532",
+      "words": 783,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/basic/app/app.css",
+          "blob": "1f70e1f80c0f4c4ead51f2cc1b3dd5ecf270ae1b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/basic/app/app.html",
+          "blob": "d1ac8e9c4f17cea279747ae6c4f12d25f5ed7b37"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/basic/app/app.ts",
+          "blob": "05ba6ced227d64d95f793169c06d97dacdff2d05"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/material/app/app.css",
+          "blob": "34b4f251eab90807e3a3279fdb9da7795e2cc7fa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/material/app/app.html",
+          "blob": "d0205cc246ea87b044fcfe6c8adac0c1e59144b9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/material/app/app.ts",
+          "blob": "05ba6ced227d64d95f793169c06d97dacdff2d05"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/retro/app/app.css",
+          "blob": "b66966afe55b282aa491e55cdbc5fae6add63961"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/retro/app/app.html",
+          "blob": "874a8922233551d27c017bab6b4736b5023f305a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/calendar/retro/app/app.ts",
+          "blob": "05ba6ced227d64d95f793169c06d97dacdff2d05"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/overview/basic/app/app.css",
+          "blob": "7f4a2b7377197967c12221e7817848be6ac1057b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/overview/basic/app/app.html",
+          "blob": "6fff28ea2ac5d0af21216aed72bff10356b65f36"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/overview/basic/app/app.ts",
+          "blob": "9c504d5f420614ce9f7b54beacc5c39ebe4e18d3"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/basic/app/app.css",
+          "blob": "8be52d4a3e953d9a918b417ea6462decd932d557"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/basic/app/app.html",
+          "blob": "35e4209709ca2f7904fed08db23999cf6cff490a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/basic/app/app.ts",
+          "blob": "2fe5f76a12e7a0437bd0b6c3fc4cee11b9a59926"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/material/app/app.css",
+          "blob": "ac46f3f2287c648336f7235f4f203a75f4e73e29"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/material/app/app.html",
+          "blob": "92b0b5ef335894555f3fe5ff0e1276f9fd793e35"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/material/app/app.ts",
+          "blob": "2fe5f76a12e7a0437bd0b6c3fc4cee11b9a59926"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/retro/app/app.css",
+          "blob": "587ac8b1265b2c94f205bd32f03b9db8a9d2d4d5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/retro/app/app.html",
+          "blob": "d760566a3f16adff6176c196be8310d393115bf4"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/pill-list/retro/app/app.ts",
+          "blob": "2fe5f76a12e7a0437bd0b6c3fc4cee11b9a59926"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/table/basic/app/app.css",
+          "blob": "0740cc41c9f97975434f5fbfd7794ea7adc1fbe0"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/table/basic/app/app.html",
+          "blob": "a1a6c9501ebf45ff88a4fe0d58a7954f25031198"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/table/basic/app/app.ts",
+          "blob": "65564deb06ea2dd60c7b75a979aba9b98e52c4fe"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/table/retro/app/app.css",
+          "blob": "af4cca35553467c1619d26c9ccdb805c07e65828"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/table/retro/app/app.html",
+          "blob": "c255a160cf4f955ada64fdd820706eabca8dcc1d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/grid/src/table/retro/app/app.ts",
+          "blob": "b39012e4108e116640414c9b25ced5430ba4f934"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Listbox",
+      "url": "https://angular.dev/guide/aria/listbox",
+      "contentPath": "guide/aria/listbox",
+      "alsoIn": [],
+      "blob": "f322d8aafa592eee3c51d57e44fd5d61baf88b5d",
+      "words": 791,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/app/app.css",
+          "blob": "d52819ab20985ca2e86dfc05f90f6df7ad699c5b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/app/app.html",
+          "blob": "fe16527f69746a330483845a8a506910212b3c29"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/app/app.ts",
+          "blob": "589be4525e4ba44b953bf729f642450d9893396b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/material/app/app.css",
+          "blob": "22e0fdf91f8fe634e43194be23ad14a4b4181290"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/material/app/app.html",
+          "blob": "10ed07bef1f5a565a986f4f08ed0b3df6e338dd2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/material/app/app.ts",
+          "blob": "589be4525e4ba44b953bf729f642450d9893396b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/retro/app/app.css",
+          "blob": "264da551ca111f46f0c8ea8f39d4082d31b2d163"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/retro/app/app.html",
+          "blob": "658a9b614340bb3a33d516a8b7fdbe50f86ddf4b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/basic/retro/app/app.ts",
+          "blob": "589be4525e4ba44b953bf729f642450d9893396b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/app/app.css",
+          "blob": "4576600e3d081d09b42ce0c70ec701c211e574fa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/app/app.html",
+          "blob": "ba7d0ea8d403910905b0a635cd42949a1b3bb6f1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/app/app.ts",
+          "blob": "0b3a13ebe6cba400d04ddf91dd98afc8afd1cd6c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/material/app/app.css",
+          "blob": "921ec5c5b79c2d5a7f9fc648d6d28f9be4a63897"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/material/app/app.html",
+          "blob": "c17fa2af8891dbb7ec868261831447fa265ccac9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/material/app/app.ts",
+          "blob": "0b3a13ebe6cba400d04ddf91dd98afc8afd1cd6c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/retro/app/app.css",
+          "blob": "299161c7a2ee73889dfde5e22b8145e399724afc"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/retro/app/app.html",
+          "blob": "055f3babd2eb189f42b1a03b60a87265fafe4638"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/horizontal/retro/app/app.ts",
+          "blob": "0b3a13ebe6cba400d04ddf91dd98afc8afd1cd6c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/modes/app/explicit/app.html",
+          "blob": "fbae516e2b5e0686c9dde28709e16666114d1dc9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/modes/app/explicit/app.ts",
+          "blob": "8e315332c5c352786e9d9fff13cfd78df3034565"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/modes/app/follow/app.html",
+          "blob": "399b1fca91fba0e5cbea40545050d846fea5db07"
+        },
+        {
+          "path": "adev/src/content/examples/aria/listbox/src/modes/app/follow/app.ts",
+          "blob": "8e315332c5c352786e9d9fff13cfd78df3034565"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Menu",
+      "url": "https://angular.dev/guide/aria/menu",
+      "contentPath": "guide/aria/menu",
+      "alsoIn": [],
+      "blob": "5b82654a87494822b3bb3ee6016417ce3f8dab10",
+      "words": 780,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-context/app/app.html",
+          "blob": "1f4ad6b1916012a7fd4f662d28bd2485c728bb4a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-context/app/app.ts",
+          "blob": "6ed733bb8dad74c804fc03cb7e7ca3ae6f75fbb2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/app/app.css",
+          "blob": "534ebd3df81a9faca7bcb4dae9ece0793bbc75ed"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/app/app.html",
+          "blob": "50a589e76a684f23f792943e69500be6191267b1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/app/app.ts",
+          "blob": "ccd25ea023f28f07471315780d2586b4dc179344"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/material/app/app.css",
+          "blob": "bc33da1ed7fe3107efa276faa1595466b802422b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/material/app/app.html",
+          "blob": "9ab44597c589d51874a8b64a2d348a4bd2d7253f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/material/app/app.ts",
+          "blob": "ccd25ea023f28f07471315780d2586b4dc179344"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/retro/app/app.css",
+          "blob": "432ced551b724f59040b007a61a43e3f1e27063f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/retro/app/app.html",
+          "blob": "119e2732fee7fbb8eec691d11a49ddff2aaa53f1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-standalone/retro/app/app.ts",
+          "blob": "ccd25ea023f28f07471315780d2586b4dc179344"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/app/app.css",
+          "blob": "325788a9d529d8d8b3968dc6445af48ed1e8d677"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/app/app.html",
+          "blob": "e286d9790b2bf69a2d315ff5dfad78162476f3fd"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/app/app.ts",
+          "blob": "c872f8bddba19141d7704e0dba67d526469473c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/material/app/app.css",
+          "blob": "8ceaa6e6ceb69927e29c6f407000a7b7f94964c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/material/app/app.html",
+          "blob": "89ac6adbf0f5a42b495fcdf59607f765ddf7c24b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/material/app/app.ts",
+          "blob": "c872f8bddba19141d7704e0dba67d526469473c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/retro/app/app.css",
+          "blob": "4d1ef1ab06a3b80bba2976347442a47243db6434"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/retro/app/app.html",
+          "blob": "3df30f8f292606d399ce15069bbeff8e75922826"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger-disabled/retro/app/app.ts",
+          "blob": "c872f8bddba19141d7704e0dba67d526469473c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/app/app.css",
+          "blob": "1af21836d1bcccaeb6854d800cfdbd63e0815725"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/app/app.html",
+          "blob": "ff902c87e9659e18e47be7ddf418ef3be6442d59"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/app/app.ts",
+          "blob": "c872f8bddba19141d7704e0dba67d526469473c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/material/app/app.css",
+          "blob": "c9a0935eb95e84ce27556818eeb0727320ffdeb9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/material/app/app.html",
+          "blob": "44762d30b81f8e4685f225936df15ef7635af9cf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/material/app/app.ts",
+          "blob": "c872f8bddba19141d7704e0dba67d526469473c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/retro/app/app.css",
+          "blob": "e89d009934816a9854dd012f73bbffbc27b0a578"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/retro/app/app.html",
+          "blob": "438af4e488652ab9e0d3b5e4f44d725e4bccd1e6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menu/src/menu-trigger/retro/app/app.ts",
+          "blob": "c872f8bddba19141d7704e0dba67d526469473c6"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Menubar",
+      "url": "https://angular.dev/guide/aria/menubar",
+      "contentPath": "guide/aria/menubar",
+      "alsoIn": [],
+      "blob": "1cd3e8ae3a57ae3c523d1cbce9cbf4dda5363a3f",
+      "words": 769,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/app/app.css",
+          "blob": "f571e44ac5a492765cd5a6c25491d1f31f865667"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/app/app.html",
+          "blob": "7a9b677266f8f6d837f8d63d91e385c69179ff35"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/app/app.ts",
+          "blob": "34cb8a0509fefcfd17a3c70d66d1e8591b44280b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/material/app/app.css",
+          "blob": "d6cbade1d4c48da3223d86b24e41dafaeeddeb9a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/material/app/app.html",
+          "blob": "67a58fca23dacc54164c586389be536759b20c0d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/material/app/app.ts",
+          "blob": "34cb8a0509fefcfd17a3c70d66d1e8591b44280b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/retro/app/app.css",
+          "blob": "03b277e249904088e2e56e89dc3a04acd9a2616e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/retro/app/app.html",
+          "blob": "4c6360caecfb25bd3ebcae7462936f46a40c21c5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/basic/retro/app/app.ts",
+          "blob": "34cb8a0509fefcfd17a3c70d66d1e8591b44280b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/app/app.css",
+          "blob": "f571e44ac5a492765cd5a6c25491d1f31f865667"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/app/app.html",
+          "blob": "7a9b677266f8f6d837f8d63d91e385c69179ff35"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/app/app.ts",
+          "blob": "34cb8a0509fefcfd17a3c70d66d1e8591b44280b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/material/app/app.css",
+          "blob": "d6cbade1d4c48da3223d86b24e41dafaeeddeb9a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/material/app/app.html",
+          "blob": "67a58fca23dacc54164c586389be536759b20c0d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/material/app/app.ts",
+          "blob": "34cb8a0509fefcfd17a3c70d66d1e8591b44280b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/retro/app/app.css",
+          "blob": "03b277e249904088e2e56e89dc3a04acd9a2616e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/retro/app/app.html",
+          "blob": "4c6360caecfb25bd3ebcae7462936f46a40c21c5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/disabled/retro/app/app.ts",
+          "blob": "34cb8a0509fefcfd17a3c70d66d1e8591b44280b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/app/app.css",
+          "blob": "f571e44ac5a492765cd5a6c25491d1f31f865667"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/app/app.html",
+          "blob": "7b2326d3272294907330cd813659e2380cee1310"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/app/app.ts",
+          "blob": "ddcbc02b7d14a224e0a2bd7453888cd17db9254f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/material/app/app.css",
+          "blob": "d6cbade1d4c48da3223d86b24e41dafaeeddeb9a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/material/app/app.html",
+          "blob": "9cc715f6c6559d4486f5e27b9d4761cbda6a6aae"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/material/app/app.ts",
+          "blob": "ddcbc02b7d14a224e0a2bd7453888cd17db9254f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/retro/app/app.css",
+          "blob": "03b277e249904088e2e56e89dc3a04acd9a2616e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/retro/app/app.html",
+          "blob": "1fd5d6f6b0ebfa9631c22e92948c8447911e14f9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/menubar/src/rtl/retro/app/app.ts",
+          "blob": "ddcbc02b7d14a224e0a2bd7453888cd17db9254f"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Multiselect",
+      "url": "https://angular.dev/guide/aria/multiselect",
+      "contentPath": "guide/aria/multiselect",
+      "alsoIn": [],
+      "blob": "950254c4d667f08239a35b350e0492ee55341353",
+      "words": 884,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/app/app.css",
+          "blob": "14b404514d157c151d6c6afa4e624662603b5a52"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/app/app.html",
+          "blob": "595392ee856884dd6c3845744fb22458ceacb17c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/app/app.ts",
+          "blob": "b6a54f645e751b77584a3c915d3957a84aa99dd5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/material/app/app.css",
+          "blob": "03f99c92dfc0d5a352e2ef8ce3593837c4294476"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/material/app/app.html",
+          "blob": "595392ee856884dd6c3845744fb22458ceacb17c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/material/app/app.ts",
+          "blob": "d6dd077149fe903d0b98d26354b47cf8a33b9e7d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/retro/app/app.css",
+          "blob": "bbfe9182b070083ab09aaa2f942b18f329a370c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/retro/app/app.html",
+          "blob": "595392ee856884dd6c3845744fb22458ceacb17c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/basic/retro/app/app.ts",
+          "blob": "c84fbd5f9366a41d0ecf879518dbffe6dd993f60"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/app/app.css",
+          "blob": "d9e44d2e664bc7f8f3791a7b2f5c3637659b0488"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/app/app.html",
+          "blob": "278748a70f22c8a08a433e24ecb06b3a766cdc79"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/app/app.ts",
+          "blob": "9f6748972b9a5199fb3e090dd7a6048b46fd041b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/material/app/app.css",
+          "blob": "fbe39d5f3d313a15471c5040665937fd7dfd73a1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/material/app/app.html",
+          "blob": "278748a70f22c8a08a433e24ecb06b3a766cdc79"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/material/app/app.ts",
+          "blob": "1e04e5a2e78e3507fcd378c77e02aa71a9ca4982"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/retro/app/app.css",
+          "blob": "bbfe9182b070083ab09aaa2f942b18f329a370c6"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/retro/app/app.html",
+          "blob": "278748a70f22c8a08a433e24ecb06b3a766cdc79"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/icons/retro/app/app.ts",
+          "blob": "0edf8059cce0e0576a143b49d0dceb0d1d231160"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/app/app.css",
+          "blob": "365e879d9c9bc1c73b78b2960e7eab5be4244b38"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/app/app.html",
+          "blob": "d5de769815da99b5ed64b6b3bc4d3273a045cf0d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/app/app.ts",
+          "blob": "82eea3780e9651ca0d66886224524110133367d0"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/material/app/app.css",
+          "blob": "ddac0a3727bbd47f13c80e29ced30a6c6ed478a9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/material/app/app.html",
+          "blob": "d5de769815da99b5ed64b6b3bc4d3273a045cf0d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/material/app/app.ts",
+          "blob": "10bde014f57b39084c9a71d3a32d5822c62483f3"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/retro/app/app.css",
+          "blob": "c52744bc038939d1b552369ed410c90c6bc98ae2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/retro/app/app.html",
+          "blob": "d5de769815da99b5ed64b6b3bc4d3273a045cf0d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/multiselect/src/limited/retro/app/app.ts",
+          "blob": "404101c6ec028028c81574437b025abe11deb947"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Select",
+      "url": "https://angular.dev/guide/aria/select",
+      "contentPath": "guide/aria/select",
+      "alsoIn": [],
+      "blob": "5da7e6685be7abb7c5ebd5e73c090a82d3e672bd",
+      "words": 871,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/app/app.css",
+          "blob": "e9d69c84c1ec047d3050af1a394bb280b77b80de"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/app/app.html",
+          "blob": "78a473b5fc77e615f34d602c530c0c60b525f7af"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/app/app.ts",
+          "blob": "7c0cf85e527945eb76fa8fd3b8d9c538485478ee"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/material/app/app.css",
+          "blob": "8f1b8939d4cfb58b0978a913b1dac34a1b610dda"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/material/app/app.html",
+          "blob": "78a473b5fc77e615f34d602c530c0c60b525f7af"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/material/app/app.ts",
+          "blob": "0e77d973d2ea8c00bb493c8352de065e3b8090e2"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/retro/app/app.css",
+          "blob": "03167f0a34a860c622f5d0f4d75a7af65527b890"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/retro/app/app.html",
+          "blob": "78a473b5fc77e615f34d602c530c0c60b525f7af"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/basic/retro/app/app.ts",
+          "blob": "a11fcee3ab30d4e0f60f3198e18e478e5f97e691"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/app/app.css",
+          "blob": "6c8ae66220782f4112145711be308765472148a7"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/app/app.html",
+          "blob": "90d9a889f53298dc8b827e60196b6a5008bc528d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/app/app.ts",
+          "blob": "a1079aec43dab1111e32eb0239c89eb10047d82d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/material/app/app.css",
+          "blob": "04fbc2851a5c5e001a7280e5bfce88569d7df32a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/material/app/app.html",
+          "blob": "90d9a889f53298dc8b827e60196b6a5008bc528d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/material/app/app.ts",
+          "blob": "9b9ec72666b23b615f381cda678cdb30c0589f21"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/retro/app/app.css",
+          "blob": "e162fc2ca28381d7a9169cbe82b4c329e25e9e57"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/retro/app/app.html",
+          "blob": "90d9a889f53298dc8b827e60196b6a5008bc528d"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/disabled/retro/app/app.ts",
+          "blob": "f0ebb7224f26c7ffce004410cc028271c3dd8d0a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/app/app.css",
+          "blob": "14e8fd1e8777bd542069382be90236f1c72895e5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/app/app.html",
+          "blob": "557c380443d67413e33fbfe0556f1c3167ea7018"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/app/app.ts",
+          "blob": "1c45c71a7c8e97be106411e5b7b931ad8a45ba8b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/material/app/app.css",
+          "blob": "785ed850162f32d29497a46212c81bc0f8f744c7"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/material/app/app.html",
+          "blob": "557c380443d67413e33fbfe0556f1c3167ea7018"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/material/app/app.ts",
+          "blob": "05d6433ebbd9d213bf0c32887942cf1fd16faf5a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/retro/app/app.css",
+          "blob": "03167f0a34a860c622f5d0f4d75a7af65527b890"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/retro/app/app.html",
+          "blob": "557c380443d67413e33fbfe0556f1c3167ea7018"
+        },
+        {
+          "path": "adev/src/content/examples/aria/select/src/icons/retro/app/app.ts",
+          "blob": "b3690efbb51e5fe6925497c8d68c7e22ed8c51b2"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Tabs",
+      "url": "https://angular.dev/guide/aria/tabs",
+      "contentPath": "guide/aria/tabs",
+      "alsoIn": [],
+      "blob": "877a6d2f9728a172d19a47b84ddec1c20c6176ec",
+      "words": 943,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/app/app.css",
+          "blob": "7ef539cc77fcdcf999e7089ba63767f49106aa9e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/app/app.html",
+          "blob": "1f9ceb37583bf72235b75b2790bd436d9288705e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/material/app/app.css",
+          "blob": "87d1bd4c032ec87c74b08ce5c095ebe533c024b3"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/material/app/app.html",
+          "blob": "8607a86a2ef2d782eecda37a8e7cca7f8e23c46f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/material/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/retro/app/app.css",
+          "blob": "c28817a4d76c25920a84df43c669a2d73ce4f148"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/retro/app/app.html",
+          "blob": "157f05ca0c4297e5b35db4d5de442f317bedc2b7"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/disabled/retro/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/app/app.css",
+          "blob": "dd89d85c34cc4b068fbd73f6cd299798a3ff2569"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/app/app.html",
+          "blob": "6b86a7bee2e483d268e04301564a7eb0af86a74f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/material/app/app.css",
+          "blob": "eecf7dc05bc54a09313b730bbb3da69329f29889"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/material/app/app.html",
+          "blob": "077465eb90542aa34b44a37a36d387259f98e672"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/material/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/retro/app/app.css",
+          "blob": "e1ff29aeca08e173fefe36376d586f3bf406c9cf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/retro/app/app.html",
+          "blob": "acd3b75e7f17771cdb969375c7e6b1bb8992bfb7"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/explicit-selection/retro/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/app/app.css",
+          "blob": "dd89d85c34cc4b068fbd73f6cd299798a3ff2569"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/app/app.html",
+          "blob": "0cec4a7383c2c1e3e29ed85dee20b6556df341aa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/material/app/app.css",
+          "blob": "eecf7dc05bc54a09313b730bbb3da69329f29889"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/material/app/app.html",
+          "blob": "cef5cc87c7484b8911cfe9be0340ddabb76f775a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/material/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/retro/app/app.css",
+          "blob": "a43e937647d333ae484734421d2b77f12041b6ea"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/retro/app/app.html",
+          "blob": "d0ad6469578dbd3c55a260efd7ce4c1bc5efe9b1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/selection-follows-focus/retro/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/app/app.css",
+          "blob": "32603c986870e3110617b2243a402e94741d74a9"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/app/app.html",
+          "blob": "d3e2b188f4bb667acfadf9b6e64cf930f3ffd826"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/material/app/app.css",
+          "blob": "822039eb777d870e1be2aa8e3d34936e69b4e9fd"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/material/app/app.html",
+          "blob": "b1966f0783cfd04845128254c28fd79473e98bfa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/material/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/retro/app/app.css",
+          "blob": "881459c4b4d67c2bd2d8bed2aa7c5820e037bfc4"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/retro/app/app.html",
+          "blob": "aaae92014d59df6f9448dd5de503adc09cfd3acf"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tabs/src/vertical/retro/app/app.ts",
+          "blob": "a7c6e50dcae12c3901d464b9f59b0d34890ea866"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Toolbar",
+      "url": "https://angular.dev/guide/aria/toolbar",
+      "contentPath": "guide/aria/toolbar",
+      "alsoIn": [],
+      "blob": "03640eb4fa4aeaaae5dd79c269a6734445b76a04",
+      "words": 974,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/app/app.css",
+          "blob": "1fc0cf49bc32af846cdfbc9f0f4d70188063631a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/app/app.html",
+          "blob": "76cd5c4131072ed1becc2e1c6b6593a5b5a5bf29"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/material/app/app.css",
+          "blob": "2cea18afc144604201790ebbcc6d1090100f3d75"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/material/app/app.html",
+          "blob": "87d34cd71ddf205efae9bb1b2cb851ea9fc492c1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/material/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/retro/app/app.css",
+          "blob": "bfbde903f0a513917b66b9f64c6ea6d2107e847c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/retro/app/app.html",
+          "blob": "7c6aa2f538c48d8fe280a7f9e8ba3b500ca6a82e"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/basic/retro/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/app/app.css",
+          "blob": "da3cf8b05992dfc1cc32254ff65708c656faf818"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/app/app.html",
+          "blob": "8f66779c3eaa6a894552d8ac759aaf516421397f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/material/app/app.css",
+          "blob": "ce55a274ba3d9e21072cfe963ae4a161a93e7ac0"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/material/app/app.html",
+          "blob": "8e68b0d26b6624ccff0871ad90eece8b19cca152"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/material/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/retro/app/app.css",
+          "blob": "787e3fab54d20d0170e3b32856eae7e03241f344"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/retro/app/app.html",
+          "blob": "001f00562dffc1c7064e1a2c8dc558546c72edcd"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/disabled/retro/app/app.ts",
+          "blob": "1ce09a14ab6f0ac53094567c6b2e0ba2c8620ceb"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/app/app.css",
+          "blob": "1fc0cf49bc32af846cdfbc9f0f4d70188063631a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/app/app.html",
+          "blob": "321df557318fdb6d78e606a23defb782f39c6820"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/app/app.ts",
+          "blob": "cc78d428172eeb66c8db2b1fd0d1273245172398"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/material/app/app.css",
+          "blob": "ce6755a5f9c328d6099eb632e69a96ca024986f1"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/material/app/app.html",
+          "blob": "b09c5c5d37ad3c4f70e000b6027519969e4fd5a8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/material/app/app.ts",
+          "blob": "cc78d428172eeb66c8db2b1fd0d1273245172398"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/retro/app/app.css",
+          "blob": "bfbde903f0a513917b66b9f64c6ea6d2107e847c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/retro/app/app.html",
+          "blob": "9eeee96aee27dc5ab49f72ebf4c430b49277134f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/rtl/retro/app/app.ts",
+          "blob": "cc78d428172eeb66c8db2b1fd0d1273245172398"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/app/app.css",
+          "blob": "77c1dbac2e48c28b9a238fff21f256bb2ef711e5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/app/app.html",
+          "blob": "4999cdc5343f0fe4566c35317188332eb9094c54"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/app/app.ts",
+          "blob": "0bdb967c9ec6c3ff876e96d4a05835cce85f3008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/material/app/app.css",
+          "blob": "e19573b9fbe1d3d34759cd85965f44bdbac61179"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/material/app/app.html",
+          "blob": "19b7c444437bc5cd51d5d72e48b56604ba880906"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/material/app/app.ts",
+          "blob": "0bdb967c9ec6c3ff876e96d4a05835cce85f3008"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/retro/app/app.css",
+          "blob": "44f0a39cb9dcb6dbc426f23107ba5efcc976d3ad"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/retro/app/app.html",
+          "blob": "62e9eb5205ba46e57184f294b2b78ec841660fd8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/toolbar/src/vertical/retro/app/app.ts",
+          "blob": "0bdb967c9ec6c3ff876e96d4a05835cce85f3008"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Angular Aria",
+      "title": "Tree",
+      "url": "https://angular.dev/guide/aria/tree",
+      "contentPath": "guide/aria/tree",
+      "alsoIn": [],
+      "blob": "c0d91516886d762089700f70bc13aa99796a8061",
+      "words": 747,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/aria/tree/src/disabled-focusable/basic/app/app.css",
+          "blob": "fabb8511f8b6e8f8040618eb641f0722c58c7cfa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/disabled-focusable/basic/app/app.html",
+          "blob": "9710d95df31e93527e189f50425ab79263a5f391"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/disabled-focusable/basic/app/app.ts",
+          "blob": "763611d8196d1d3aa1ff2d99b6d67f27b73b516a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/disabled-focusable/retro/app/app.css",
+          "blob": "5f4f901100a937c443a6dc7fcbd6f49788747e5a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/disabled-focusable/retro/app/app.html",
+          "blob": "e030d2fcdb430d471271929a0e57e53d16462100"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/disabled-focusable/retro/app/app.ts",
+          "blob": "2dc838d6f359fa4f3bf3bba05635b33d0aa8c12c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/multi-select/basic/app/app.css",
+          "blob": "fabb8511f8b6e8f8040618eb641f0722c58c7cfa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/multi-select/basic/app/app.html",
+          "blob": "f2279ff5dc520f96ca0f0116509ec77602c5ac00"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/multi-select/basic/app/app.ts",
+          "blob": "75a00fa128d400bcc7003d7635ca598fbe099e6c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/multi-select/retro/app/app.css",
+          "blob": "5f4f901100a937c443a6dc7fcbd6f49788747e5a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/multi-select/retro/app/app.html",
+          "blob": "e1f248100ca3139f36cf4878913b9cb39617258f"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/multi-select/retro/app/app.ts",
+          "blob": "219a5e2b81a7ffb9678557e9b62103c2089ba5f8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/nav/basic/app/app.css",
+          "blob": "daaa07ca0d4756d1d4806c9096184cee5fc798d5"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/nav/basic/app/app.html",
+          "blob": "9abcab079ccceedb617612f23070989228372afd"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/nav/basic/app/app.ts",
+          "blob": "955c64813f9d9c0e56b6ecdd078a6c817788264c"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select-follow-focus/basic/app/app.css",
+          "blob": "fabb8511f8b6e8f8040618eb641f0722c58c7cfa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select-follow-focus/basic/app/app.html",
+          "blob": "1ae156895da7da3f82754b0285e1910582bee058"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select-follow-focus/basic/app/app.ts",
+          "blob": "d292de6af77e66a3265aea68eb33611588f300da"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select-follow-focus/retro/app/app.css",
+          "blob": "5f4f901100a937c443a6dc7fcbd6f49788747e5a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select-follow-focus/retro/app/app.html",
+          "blob": "64c8639f70a1f92909c31aba2c6faec15d17bb3b"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select-follow-focus/retro/app/app.ts",
+          "blob": "219a5e2b81a7ffb9678557e9b62103c2089ba5f8"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select/basic/app/app.css",
+          "blob": "fabb8511f8b6e8f8040618eb641f0722c58c7cfa"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select/basic/app/app.html",
+          "blob": "9710d95df31e93527e189f50425ab79263a5f391"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select/basic/app/app.ts",
+          "blob": "d292de6af77e66a3265aea68eb33611588f300da"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select/retro/app/app.css",
+          "blob": "5f4f901100a937c443a6dc7fcbd6f49788747e5a"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select/retro/app/app.html",
+          "blob": "e030d2fcdb430d471271929a0e57e53d16462100"
+        },
+        {
+          "path": "adev/src/content/examples/aria/tree/src/single-select/retro/app/app.ts",
+          "blob": "219a5e2b81a7ffb9678557e9b62103c2089ba5f8"
+        }
+      ],
+      "reference": "references/guide/aria.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/i18n",
+      "contentPath": "guide/i18n/overview",
+      "alsoIn": [],
+      "blob": "56911ef2157c679817946a69fd2196ab10b452bc",
+      "words": 313,
+      "examples": [],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Add the localize package",
+      "url": "https://angular.dev/guide/i18n/add-package",
+      "contentPath": "guide/i18n/add-package",
+      "alsoIn": [],
+      "blob": "c81ff0a2d7889263a56b4cdef9169386e7238df9",
+      "words": 262,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/commands.sh",
+          "blob": "5974576376b63f4dcc31f9991244164b0299d969"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Refer to locales by ID",
+      "url": "https://angular.dev/guide/i18n/locale-id",
+      "contentPath": "guide/i18n/locale-id",
+      "alsoIn": [],
+      "blob": "5a4112afe300b0043ce25c94e8c989507881c943",
+      "words": 482,
+      "examples": [],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Format data based on locale",
+      "url": "https://angular.dev/guide/i18n/format-data-locale",
+      "contentPath": "guide/i18n/format-data-locale",
+      "alsoIn": [],
+      "blob": "122f32b6fee4a86a5422571c86ea891e730eb784",
+      "words": 241,
+      "examples": [],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Prepare component for translation",
+      "url": "https://angular.dev/guide/i18n/prepare",
+      "contentPath": "guide/i18n/prepare",
+      "alsoIn": [],
+      "blob": "970c1b68a1acc473434361473fbc1684b1f4d1be",
+      "words": 2158,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/app.component.html",
+          "blob": "b5b7afeffbf531e96e8a12b65e75b65c1f85afb5"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/locale_plural_function.ts",
+          "blob": "1c60cb36281c7260f7423ba5fc88ad3368b90c76"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/src/app/app.component.html",
+          "blob": "ece73cd5a8738fce45ace5e89f11de69e7057d5f"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/src/app/app.component.ts",
+          "blob": "24935285994f7628f1a85c457d1b01bedcdc544b"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Work with translation files",
+      "url": "https://angular.dev/guide/i18n/translation-files",
+      "contentPath": "guide/i18n/translation-files",
+      "alsoIn": [],
+      "blob": "d082942d778d77771ff18f15bb505ce30188b93b",
+      "words": 1403,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/commands.sh",
+          "blob": "5974576376b63f4dcc31f9991244164b0299d969"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/src/app/app.component.html",
+          "blob": "ece73cd5a8738fce45ace5e89f11de69e7057d5f"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Merge translations into the app",
+      "url": "https://angular.dev/guide/i18n/merge",
+      "contentPath": "guide/i18n/merge",
+      "alsoIn": [],
+      "blob": "b592eb1cd64a1a294038bf3af4116d3b443b192e",
+      "words": 1339,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/angular.json",
+          "blob": "04f4d933eef5be29cb000d82dc3e50c4ac2e0c5e"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/commands.sh",
+          "blob": "5974576376b63f4dcc31f9991244164b0299d969"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Deploy multiple locales",
+      "url": "https://angular.dev/guide/i18n/deploy",
+      "contentPath": "guide/i18n/deploy",
+      "alsoIn": [],
+      "blob": "601120cfd251db1d1ba5fd007151b9868798ed3b",
+      "words": 717,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/angular.json",
+          "blob": "04f4d933eef5be29cb000d82dc3e50c4ac2e0c5e"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/apache2.conf",
+          "blob": "7f6dc6f66d62b4e2c06c7d58e0ab9eeef053eea4"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/nginx.conf",
+          "blob": "3e3b689eac9031dbbd5a28a4f2ee6b8df510dd1b"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Import global variants of the locale data",
+      "url": "https://angular.dev/guide/i18n/import-global-variants",
+      "contentPath": "guide/i18n/import-global-variants",
+      "alsoIn": [],
+      "blob": "dc1ff607590a9f43d2f8f21e26a296df6e8298fc",
+      "words": 149,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/src/main.ts",
+          "blob": "2f1d0d3ae359ac6ad73d59ee0d2a226d16d69d59"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Manage marked text with custom IDs",
+      "url": "https://angular.dev/guide/i18n/manage-marked-text",
+      "contentPath": "guide/i18n/manage-marked-text",
+      "alsoIn": [],
+      "blob": "453f583a331a501e99dce0a61d956cdae4d0b20c",
+      "words": 525,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/app.component.html",
+          "blob": "b5b7afeffbf531e96e8a12b65e75b65c1f85afb5"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/messages.fr.xlf",
+          "blob": "23d6f5fd1bd45f370794593a30283600f7cd8cde"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/rendered-output.html",
+          "blob": "dbe2a8f7a12f4b0faf6eaf18e99c692ca3113e92"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Internationalization",
+      "title": "Example Angular application",
+      "url": "https://angular.dev/guide/i18n/example",
+      "contentPath": "guide/i18n/example",
+      "alsoIn": [],
+      "blob": "614cc6e9071648ef2465bcaadc8c292a5d3a7060",
+      "words": 72,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/main.1.ts",
+          "blob": "589f3f5e3864c9434eb0acdf296ac32aacdc9370"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/doc-files/messages.fr.xlf",
+          "blob": "23d6f5fd1bd45f370794593a30283600f7cd8cde"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/src/app/app.component.html",
+          "blob": "ece73cd5a8738fce45ace5e89f11de69e7057d5f"
+        },
+        {
+          "path": "adev/src/content/examples/i18n/src/app/app.component.ts",
+          "blob": "24935285994f7628f1a85c457d1b01bedcdc544b"
+        }
+      ],
+      "reference": "references/guide/i18n.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Animations",
+      "title": "Enter and Leave animations",
+      "url": "https://angular.dev/guide/animations",
+      "contentPath": "guide/animations/enter-and-leave",
+      "alsoIn": [],
+      "blob": "5993a2fecf48c396ea6ebb13bec378fa35891acb",
+      "words": 1067,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/enter-binding.css",
+          "blob": "df19c23536198b209f2e120a177f92b1b05506db"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/enter-binding.html",
+          "blob": "feca50b293b482650b0d8d9c5e17d0decb5b3116"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/enter-binding.ts",
+          "blob": "742b04f5711f1c28e0f31280e1fc1e19003fb655"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/enter.css",
+          "blob": "df19c23536198b209f2e120a177f92b1b05506db"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/enter.html",
+          "blob": "008bc63eb738ebe9d1615ac63794884e7630ac74"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/enter.ts",
+          "blob": "e0a8b9eb5c7c93fed442ffcf6d9fce62145fb3cf"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-binding.css",
+          "blob": "428873c75cadff014ee56982c63a69a8faee2a92"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-binding.html",
+          "blob": "47c27c18937ab887543e1b7cd3cac9f1a584bd14"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-binding.ts",
+          "blob": "78fc2e3735698448b73c1ed8afe1f453357d546a"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-event.css",
+          "blob": "428873c75cadff014ee56982c63a69a8faee2a92"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-event.html",
+          "blob": "ff57e9eb4006b2988539f8ae05d16b457776874c"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-event.ts",
+          "blob": "257368176d619e45280420a3759bcc538f9d98ea"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-parent.css",
+          "blob": "428873c75cadff014ee56982c63a69a8faee2a92"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-parent.html",
+          "blob": "39d5897b2e3419e4957d00a55e38a9aaef04db5c"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave-parent.ts",
+          "blob": "935e1818ca22d326803c6e201aadd2e51843293f"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave.css",
+          "blob": "428873c75cadff014ee56982c63a69a8faee2a92"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave.html",
+          "blob": "097b1aa7fd75d7134b2bb3813c2115d7a3a9a76e"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/enter-and-leave/leave.ts",
+          "blob": "fca9d3918cb6339b6f9866995e7aa3578dc16393"
+        }
+      ],
+      "reference": "references/guide/animations.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "Animations",
+      "title": "Complex Animations with CSS",
+      "url": "https://angular.dev/guide/animations/css",
+      "contentPath": "guide/animations/css",
+      "alsoIn": [],
+      "blob": "a32f7cbc564e2d7c3ede67d9b7ae6d82c3dc1c69",
+      "words": 1242,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations.css",
+          "blob": "fff24d04b6b7dda5f0bb11c221822dcb78f19825"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/auto-height.css",
+          "blob": "6921eb7e137ece15c3be34f76068eb1e1c4fd4d1"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/auto-height.html",
+          "blob": "fc8012c54a108502728d0cc9c1a5a32e3bd39ece"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/auto-height.ts",
+          "blob": "73f0d2dae0f16ed210b164eb253e1b042e4ac03b"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/increment-decrement.css",
+          "blob": "55e30dc0d6a154efce196b5f01e64074731a2ab7"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/increment-decrement.html",
+          "blob": "055ebbd4d9ec3303374e4d346ba029492cbe8e47"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/increment-decrement.ts",
+          "blob": "bd18f66d2573a760bc0f0b03a7f5e4e386f5ffe4"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/insert.css",
+          "blob": "03c51e6fe979b0dbe03da1c8496dd3c752145cda"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/insert.html",
+          "blob": "f5470c6e3961a4d9586c01ad02250722db5957dd"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/insert.ts",
+          "blob": "2461b1f2d68a7cd335ae761fd833f6880a9837ba"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/open-close.css",
+          "blob": "588f3a48c02cd7a81ad7261c16b8a8cd18103ce1"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/open-close.html",
+          "blob": "97b886de4ac1e7794999c4d84699a33943450d60"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/open-close.ts",
+          "blob": "e8dd8127bb999f1f6b72e57e37388c1085f5401b"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/remove.css",
+          "blob": "33845619fc91cc5e23ce7dfce953473496dd17d9"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/remove.html",
+          "blob": "2704c07eae86ce70dbc3560c76a094cb765ba6d4"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/remove.ts",
+          "blob": "00e19f3c941596371509991cf56ce15a04f472f6"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/reorder.css",
+          "blob": "5ff27b08f2e0f64f387f628e4101b9cef9241678"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/reorder.html",
+          "blob": "31209dcd32bc718530aaf12785984eb630fe39d6"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/reorder.ts",
+          "blob": "6efe2284176a6da3864d7901c63cb58c49e956df"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/stagger.css",
+          "blob": "40b094a33151aca949e439b8bec012e0afac0d55"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/stagger.html",
+          "blob": "52a814839897b24f1bc94d468b03fc28903a586e"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/stagger.ts",
+          "blob": "fd971dfcc40eebbf8070e47ebfd3ed1e533d90cd"
+        }
+      ],
+      "reference": "references/guide/animations.md"
+    },
+    {
+      "section": "In-depth Guides",
+      "group": "",
+      "title": "Drag and drop",
+      "url": "https://angular.dev/guide/drag-drop",
+      "contentPath": "guide/drag-drop",
+      "alsoIn": [],
+      "blob": "563cdcd96e6c6bd4e0d1463151d4e49339faa663",
+      "words": 2941,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/drag-drop/src/axis-lock/app/app.css",
+          "blob": "980f2d87b6014e22500c8c5defb1a69194414380"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/axis-lock/app/app.html",
+          "blob": "33eb60e80b2721a925254bc25fc0191e97222211"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/axis-lock/app/app.ts",
+          "blob": "506424e8c7e5a2568e2bdc540f607e3ff7f4f9ce"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/boundary/app/app.css",
+          "blob": "a95b356e72a8720b95c2501f91ee53e202181adb"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/boundary/app/app.html",
+          "blob": "fb64a9d6d73093d871473de7807289e5788a8a38"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/boundary/app/app.ts",
+          "blob": "d03cb33b4ff3d13b78dc5cd502c35210e630514b"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/connected-sorting-group/app/app.css",
+          "blob": "faf2f119e098eaa1a5ab16367179f3b0f6312b19"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/connected-sorting-group/app/app.html",
+          "blob": "f80be7dc821f424ea23a26aa4234221af4b0e7d8"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/connected-sorting-group/app/app.ts",
+          "blob": "7d15dbeb0e4d32c8c3883327115e05cfbff2c7bf"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/connected-sorting/app/app.css",
+          "blob": "faf2f119e098eaa1a5ab16367179f3b0f6312b19"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/connected-sorting/app/app.html",
+          "blob": "578688205b9d71fc8f1ce7323232000d9bef26a5"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/connected-sorting/app/app.ts",
+          "blob": "601754c06f1b9de89e16b4dca72dd54e94ff357c"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/copy-list/app/app.css",
+          "blob": "c03fde680b78fe2c202f23419662721ee1383386"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/copy-list/app/app.html",
+          "blob": "eca1c3211822738071fd83144bd3b0fb0263348a"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/copy-list/app/app.ts",
+          "blob": "8d9b30dd16a2efb4ffd8f04ab4add6246c53f456"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-handle/app/app.css",
+          "blob": "1642a1836bee62f6abe96c3549f383a8223476b5"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-handle/app/app.html",
+          "blob": "0ba8409687108247840d485b8cab4ad6e817f7b0"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-handle/app/app.ts",
+          "blob": "9fb0da09081721d3382bb7213aa887c10358a139"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-placeholder/app/app.css",
+          "blob": "d82afc1465c05f58255d0d8d1049ff0554fb1442"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-placeholder/app/app.html",
+          "blob": "fdca26c6ab691c4cf86daf7b457daff00c2f7503"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-placeholder/app/app.ts",
+          "blob": "b41f45fa17d842f56fcf799f37be994b2ae5629f"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-preview/app/app.css",
+          "blob": "3cb2b1284f8d0aa771fab16f8ea26ddada7b9a8c"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-preview/app/app.html",
+          "blob": "84cc57f4c8cd445eec10836084fba81b238733ef"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/custom-preview/app/app.ts",
+          "blob": "cf0a651c0af53b781d2c5d557b50e741b892cd4d"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/delay-drag/app/app.css",
+          "blob": "06088f43dd7f9c5987141b4308395a7a896196fc"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/delay-drag/app/app.html",
+          "blob": "2d83f65ec9942a06492839dceab5ba2b3c79664d"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/delay-drag/app/app.ts",
+          "blob": "5b04de361e8ef63bfd72abb0ce6d1b90faefc500"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/disable-drag/app/app.css",
+          "blob": "caf4693f8de0ad5cc00cdcd7574e777ff931a6e1"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/disable-drag/app/app.html",
+          "blob": "69d576bcd8c477c5c5ea49cee61853a17a593320"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/disable-drag/app/app.ts",
+          "blob": "a47ca2d774e56d8fb136c9c11229a0722e49396c"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/disable-sorting/app/app.css",
+          "blob": "4b5c179e0135a8df43bab965c63e467d5ba35cd2"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/disable-sorting/app/app.html",
+          "blob": "1f2ca498db4796f1b4cc56df5abee63b308f00cd"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/disable-sorting/app/app.ts",
+          "blob": "ffb0b4c8d646c5010135fe4d9a888284136e2dcd"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/enter-predicate/app/app.css",
+          "blob": "4b5c179e0135a8df43bab965c63e467d5ba35cd2"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/enter-predicate/app/app.html",
+          "blob": "aa68caf2eed24009a192806e96878b7c99c66b20"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/enter-predicate/app/app.ts",
+          "blob": "d33236c8cd03484287c6c626ecc4f13be31d8ba3"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/free-drag-position/app/app.css",
+          "blob": "06088f43dd7f9c5987141b4308395a7a896196fc"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/free-drag-position/app/app.html",
+          "blob": "30bb84cc385baa3c549bd94a0f0aeb092456f841"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/free-drag-position/app/app.ts",
+          "blob": "9105419a11aa59de305d7e1dd35ac57c4e94cf79"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/horizontal-sorting/app/app.css",
+          "blob": "69f6dea19f78436ef88771eae215020d4f002563"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/horizontal-sorting/app/app.html",
+          "blob": "63ad374204b0d5c1a64457d8fd9ab698b553cdd2"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/horizontal-sorting/app/app.ts",
+          "blob": "0bbcd977c0e1910684e49ceba7707b4bf02b7036"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/mixed-sorting/app/app.css",
+          "blob": "855550e89235e63cafa5f4106f16338e4bafb138"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/mixed-sorting/app/app.html",
+          "blob": "f298959715c07c9e0a443f94d2aeea9a55366196"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/mixed-sorting/app/app.ts",
+          "blob": "be7856bc1cdc0234becf092dc0d942808ebe0f60"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/overview/app/app.css",
+          "blob": "06088f43dd7f9c5987141b4308395a7a896196fc"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/overview/app/app.html",
+          "blob": "c02380448b9731b8ccd5b237c8ce1605ba38a18b"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/overview/app/app.ts",
+          "blob": "1335cbb8c775832e0a492c35fa175b9a91d11a27"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/root-element/app/app.css",
+          "blob": "b59f8fa4f4a7b1254efbbe4c16b4a352d79d089f"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/root-element/app/app.html",
+          "blob": "65c520a7342e49e462161e1291716b831d6a7935"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/root-element/app/app.ts",
+          "blob": "17e960bd297bbb867175cf292cfafb381a0cd06e"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/sort-predicate/app/app.css",
+          "blob": "432353a03dc5a0eef7fc70cbb296f43e57b4e0c6"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/sort-predicate/app/app.html",
+          "blob": "db49be41cf1327560614998e76626fabfce1d070"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/sort-predicate/app/app.ts",
+          "blob": "fc226915455f20b0378357dceb17e7830c6a13d2"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/sorting/app/app.css",
+          "blob": "7178be74023303af75f11643257b9810d0aefaa0"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/sorting/app/app.html",
+          "blob": "eebe885c7e53d9555019786fbb2b9b3abcc9843e"
+        },
+        {
+          "path": "adev/src/content/examples/drag-drop/src/sorting/app/app.ts",
+          "blob": "4e6c566a6694abcc85d3ad1fafce184a63ecab7c"
+        }
+      ],
+      "reference": "references/guide/drag-drop.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Overview",
+      "url": "https://angular.dev/tools/cli",
+      "contentPath": "tools/cli/overview",
+      "alsoIn": [],
+      "blob": "13090475d0ad56ad0c5b432c960835e3e397de4f",
+      "words": 343,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Local set-up",
+      "url": "https://angular.dev/tools/cli/setup-local",
+      "contentPath": "tools/cli/setup-local",
+      "alsoIn": [],
+      "blob": "ff71578f6ce6bc0667b7fd330dd2122bca478657",
+      "words": 875,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Building Angular apps",
+      "url": "https://angular.dev/tools/cli/build",
+      "contentPath": "tools/cli/build",
+      "alsoIn": [],
+      "blob": "c4dabc94181f9ad36e6d2aaf572409dc06196c93",
+      "words": 1345,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Serving Angular apps for development",
+      "url": "https://angular.dev/tools/cli/serve",
+      "contentPath": "tools/cli/serve",
+      "alsoIn": [],
+      "blob": "29e4b4219f1d7f6349aa0f6c954b72de670657b0",
+      "words": 319,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Deployment",
+      "url": "https://angular.dev/tools/cli/deployment",
+      "contentPath": "tools/cli/deployment",
+      "alsoIn": [],
+      "blob": "5ec8e9afd8d658b60fa58acdbd0d448f0dc18bd0",
+      "words": 1241,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "End-to-End Testing",
+      "url": "https://angular.dev/tools/cli/end-to-end",
+      "contentPath": "tools/cli/end-to-end",
+      "alsoIn": [],
+      "blob": "da915ba7d09c1fe645ba1c8d2a04764f5e7bdf15",
+      "words": 368,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Migrating to new build system",
+      "url": "https://angular.dev/tools/cli/build-system-migration",
+      "contentPath": "tools/cli/build-system-migration",
+      "alsoIn": [],
+      "blob": "f373723390df2d7228a779f3a3a79cf6e8465c3f",
+      "words": 4417,
+      "examples": [],
+      "reference": "references/tools/cli-builders.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Build environments",
+      "url": "https://angular.dev/tools/cli/environments",
+      "contentPath": "tools/cli/environments",
+      "alsoIn": [],
+      "blob": "b89dc0e62dafb4dcfa768e559dcbaeef3e40ad00",
+      "words": 842,
+      "examples": [],
+      "reference": "references/tools/cli.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Angular CLI builders",
+      "url": "https://angular.dev/tools/cli/cli-builder",
+      "contentPath": "tools/cli/cli-builder",
+      "alsoIn": [],
+      "blob": "059576883c63273c59eede28b25e01cab391f9d0",
+      "words": 2521,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/cli-builder/src/my-builder.spec.ts",
+          "blob": "8f17192e45aefb9987513663439d60d0fd78ce2e"
+        },
+        {
+          "path": "adev/src/content/examples/cli-builder/src/my-builder.ts",
+          "blob": "92331d7b76c6435e31042178180b9a97a6d85eea"
+        }
+      ],
+      "reference": "references/tools/cli-builders.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Generating code using schematics",
+      "url": "https://angular.dev/tools/cli/schematics",
+      "contentPath": "tools/cli/schematics",
+      "alsoIn": [],
+      "blob": "d8be0cd0de95d9ed88a71e133d262d7a738e726f",
+      "words": 1036,
+      "examples": [],
+      "reference": "references/tools/cli-schematics.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Authoring schematics",
+      "url": "https://angular.dev/tools/cli/schematics-authoring",
+      "contentPath": "tools/cli/schematics-authoring",
+      "alsoIn": [],
+      "blob": "95d73f29e4fd3976cbbb64327e4083da22696a08",
+      "words": 2346,
+      "examples": [],
+      "reference": "references/tools/cli-schematics.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Schematics for libraries",
+      "url": "https://angular.dev/tools/cli/schematics-for-libraries",
+      "contentPath": "tools/cli/schematics-for-libraries",
+      "alsoIn": [],
+      "blob": "e7d4ca1718a2190491b307f6154c93745d7b6155",
+      "words": 2292,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/package.json",
+          "blob": "349201ff23d4c824402f66f491bd8d206f4e74f5"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/collection.1.json",
+          "blob": "890d3c9a4dd4f177428f45a5682b858ef9f330cc"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/collection.json",
+          "blob": "95fb494933b579b048d0fe5ada9bfc594c718343"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/my-service/index.1.ts",
+          "blob": "dced723adc1cd2979ac96dbf117f1d0e3d355364"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/my-service/index.ts",
+          "blob": "0bdb413de8ae20eaf1c240513695633bf28398e4"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/my-service/schema.json",
+          "blob": "01aef019a12f00b7e535ec15e49d098804d31494"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/my-service/schema.ts",
+          "blob": "4389b72f59c2805111a80a4587ac9cf59ad4782c"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/ng-add/index.ts",
+          "blob": "745109926bc0ca221821c350c1d497dc805a79a7"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/ng-add/schema.json",
+          "blob": "30daba99860073380e042479c75871f2a5371cb7"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/schematics/ng-add/schema.ts",
+          "blob": "e9989c2defe8f14acd068c8daa02ab65f2b0cfb5"
+        },
+        {
+          "path": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/tsconfig.schematics.json",
+          "blob": "1cc66878bf126b4c06f683e98ed37e2f53fc944e"
+        }
+      ],
+      "reference": "references/tools/cli-schematics.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Template type checking",
+      "url": "https://angular.dev/tools/cli/template-typecheck",
+      "contentPath": "tools/cli/template-typecheck",
+      "alsoIn": [],
+      "blob": "a41c9d3449e8857f35c86d62fef4ca38835d73da",
+      "words": 2370,
+      "examples": [],
+      "reference": "references/tools/cli-compiler.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "Ahead-of-time (AOT) compilation",
+      "url": "https://angular.dev/tools/cli/aot-compiler",
+      "contentPath": "tools/cli/aot-compiler",
+      "alsoIn": [],
+      "blob": "e1c68de22ab112eb7a1f390d08f12b9c3e4bbf40",
+      "words": 2789,
+      "examples": [],
+      "reference": "references/tools/cli-compiler.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Angular CLI",
+      "title": "AOT metadata errors",
+      "url": "https://angular.dev/tools/cli/aot-metadata-errors",
+      "contentPath": "tools/cli/aot-metadata-errors",
+      "alsoIn": [],
+      "blob": "fbe9007f840b1df393ac59320c82991ac2713fe5",
+      "words": 1521,
+      "examples": [],
+      "reference": "references/tools/cli-compiler.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Libraries",
+      "title": "Overview",
+      "url": "https://angular.dev/tools/libraries",
+      "contentPath": "tools/libraries/overview",
+      "alsoIn": [],
+      "blob": "9a0dfceba9ac437342c5fefe1607ec8e0a23333e",
+      "words": 416,
+      "examples": [],
+      "reference": "references/tools/libraries.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Libraries",
+      "title": "Creating Libraries",
+      "url": "https://angular.dev/tools/libraries/creating-libraries",
+      "contentPath": "tools/libraries/creating-libraries",
+      "alsoIn": [],
+      "blob": "7b04e35c5096a701da1007ad11c91fa639fa0f86",
+      "words": 3110,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/angular-linker-plugin/webpack.config.mjs",
+          "blob": "697f3ebf0141b2b0497f10041e06f759bcf5a981"
+        }
+      ],
+      "reference": "references/tools/libraries.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Libraries",
+      "title": "Using Libraries",
+      "url": "https://angular.dev/tools/libraries/using-libraries",
+      "contentPath": "tools/libraries/using-libraries",
+      "alsoIn": [],
+      "blob": "f44204331f961d92d84b058bbbb61d299339356f",
+      "words": 960,
+      "examples": [],
+      "reference": "references/tools/libraries.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "Libraries",
+      "title": "Angular Package Format",
+      "url": "https://angular.dev/tools/libraries/angular-package-format",
+      "contentPath": "tools/libraries/angular-package-format",
+      "alsoIn": [],
+      "blob": "280d2aad4d17e668a55088bf637386feee63783a",
+      "words": 2583,
+      "examples": [],
+      "reference": "references/tools/libraries.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "DevTools",
+      "title": "Overview",
+      "url": "https://angular.dev/tools/devtools",
+      "contentPath": "tools/devtools/overview",
+      "alsoIn": [],
+      "blob": "6e53b45ae5f68dbd70bdfe9b7d7e076f261b87dd",
+      "words": 482,
+      "examples": [],
+      "reference": "references/tools/devtools.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "DevTools",
+      "title": "Components",
+      "url": "https://angular.dev/tools/devtools/component",
+      "contentPath": "tools/devtools/component",
+      "alsoIn": [],
+      "blob": "281791019e74f23ef3c6451d898a0b90a6b91feb",
+      "words": 789,
+      "examples": [],
+      "reference": "references/tools/devtools.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "DevTools",
+      "title": "Profiler",
+      "url": "https://angular.dev/tools/devtools/profiler",
+      "contentPath": "tools/devtools/profiler",
+      "alsoIn": [],
+      "blob": "b3ec6dbd7731ceeb4be016fc9784b13aabf05443",
+      "words": 1007,
+      "examples": [],
+      "reference": "references/tools/devtools.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "DevTools",
+      "title": "Injectors",
+      "url": "https://angular.dev/tools/devtools/injectors",
+      "contentPath": "tools/devtools/injectors",
+      "alsoIn": [],
+      "blob": "89b699c1ba391e4343f12792e566d03db5908aaf",
+      "words": 250,
+      "examples": [],
+      "reference": "references/tools/devtools.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "DevTools",
+      "title": "Signals",
+      "url": "https://angular.dev/tools/devtools/signals",
+      "contentPath": "tools/devtools/signals",
+      "alsoIn": [],
+      "blob": "cdc1a53ff2c0b45d26dc3bd2bfcdd7eb266519e5",
+      "words": 540,
+      "examples": [],
+      "reference": "references/tools/devtools.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "DevTools",
+      "title": "Router Tree",
+      "url": "https://angular.dev/tools/devtools/router",
+      "contentPath": "tools/devtools/router",
+      "alsoIn": [],
+      "blob": "6edaf864baf13ef9f4425be2ff153124356b82f0",
+      "words": 326,
+      "examples": [],
+      "reference": "references/tools/devtools.md"
+    },
+    {
+      "section": "Developer Tools",
+      "group": "",
+      "title": "Language Service",
+      "url": "https://angular.dev/tools/language-service",
+      "contentPath": "tools/language-service",
+      "alsoIn": [],
+      "blob": "d6492cb353dc1f6a6600c2b62a026094f4bfb1b8",
+      "words": 1210,
+      "examples": [],
+      "reference": "references/tools/language-service.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "",
+      "title": "Style Guide",
+      "url": "https://angular.dev/style-guide",
+      "contentPath": "best-practices/style-guide",
+      "alsoIn": [],
+      "blob": "8c12a9a5c29634d603e558875b54218c70200ba6",
+      "words": 1744,
+      "examples": [],
+      "reference": "references/best-practices/style-guide.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "",
+      "title": "Security",
+      "url": "https://angular.dev/best-practices/security",
+      "contentPath": "guide/security",
+      "alsoIn": [],
+      "blob": "dbd1ed9142e94c0659bb2f4c4568507fcb70f2a5",
+      "words": 4457,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/security/src/app/bypass-security.component.html",
+          "blob": "62b348065f5deefed36a179736a866c5adb6bc2d"
+        },
+        {
+          "path": "adev/src/content/examples/security/src/app/bypass-security.component.ts",
+          "blob": "1f611d46d4053334529ec5c4d46f047c132f8d77"
+        },
+        {
+          "path": "adev/src/content/examples/security/src/app/inner-html-binding.component.html",
+          "blob": "5915c3a517b7ba6c24d961fbd4383c07c588008b"
+        },
+        {
+          "path": "adev/src/content/examples/security/src/app/inner-html-binding.component.ts",
+          "blob": "d7074fbe66c43903d8fd6dfbcc1fa046ac74fd65"
+        }
+      ],
+      "reference": "references/guide/security.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "",
+      "title": "Accessibility",
+      "url": "https://angular.dev/best-practices/a11y",
+      "contentPath": "best-practices/a11y",
+      "alsoIn": [],
+      "blob": "2531454d8891989937075a3b54abd71cfd3c549a",
+      "words": 1177,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/accessibility/src/app/app.component.html",
+          "blob": "ae72779c1ec53a3a2d01a49c5a845534043b86bd"
+        },
+        {
+          "path": "adev/src/content/examples/accessibility/src/app/progress-bar.component.ts",
+          "blob": "bf9f886dbf5f509a3da11462a917834fe238a5e5"
+        }
+      ],
+      "reference": "references/best-practices/a11y.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "",
+      "title": "Unhandled errors in Angular",
+      "url": "https://angular.dev/best-practices/error-handling",
+      "contentPath": "best-practices/error-handling",
+      "alsoIn": [],
+      "blob": "16f8323fc28955de509c0b4b5471fdf450e77063",
+      "words": 1104,
+      "examples": [],
+      "reference": "references/best-practices/error-handling.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Overview",
+      "url": "https://angular.dev/best-practices/performance",
+      "contentPath": "best-practices/performance/overview",
+      "alsoIn": [],
+      "blob": "0754c74c34ffce0dfa2a14813cc162f8f6859f98",
+      "words": 591,
+      "examples": [],
+      "reference": "references/best-practices/performance.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Overview",
+      "url": "https://angular.dev/best-practices/runtime-performance",
+      "contentPath": "best-practices/runtime-performance/overview",
+      "alsoIn": [],
+      "blob": "2023383227550fdfc419341b5e75c393a6a11367",
+      "words": 209,
+      "examples": [],
+      "reference": "references/best-practices/performance.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Zoneless",
+      "url": "https://angular.dev/guide/zoneless",
+      "contentPath": "guide/zoneless",
+      "alsoIn": [],
+      "blob": "80c755b1a9752db5a2e3bcb4643f186394b9b128",
+      "words": 1399,
+      "examples": [],
+      "reference": "references/guide/zoneless.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Slow computations",
+      "url": "https://angular.dev/best-practices/slow-computations",
+      "contentPath": "best-practices/runtime-performance/slow-computations",
+      "alsoIn": [],
+      "blob": "b135069985978cab88b36e94b8cf04be6282d9b9",
+      "words": 382,
+      "examples": [],
+      "reference": "references/best-practices/performance.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Skipping component subtrees",
+      "url": "https://angular.dev/best-practices/skipping-subtrees",
+      "contentPath": "best-practices/runtime-performance/skipping-subtrees",
+      "alsoIn": [],
+      "blob": "d2f400e900a8547bce5a1e53d69dc790db3d826f",
+      "words": 902,
+      "examples": [],
+      "reference": "references/best-practices/performance.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Zone pollution",
+      "url": "https://angular.dev/best-practices/zone-pollution",
+      "contentPath": "best-practices/runtime-performance/zone-pollution",
+      "alsoIn": [],
+      "blob": "1519a9914fe565da51fc576852623ec3e54c05f1",
+      "words": 723,
+      "examples": [],
+      "reference": "references/best-practices/performance.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "Performance",
+      "title": "Chrome DevTools profiling",
+      "url": "https://angular.dev/best-practices/profiling-with-chrome-devtools",
+      "contentPath": "best-practices/runtime-performance/profiling-with-chrome-devtools",
+      "alsoIn": [],
+      "blob": "fa21d3682bbac932b4cd776ebb9b8d4e39d6f4de",
+      "words": 853,
+      "examples": [],
+      "reference": "references/best-practices/performance.md"
+    },
+    {
+      "section": "Best Practices",
+      "group": "",
+      "title": "Keeping up-to-date",
+      "url": "https://angular.dev/update",
+      "contentPath": "best-practices/update",
+      "alsoIn": [],
+      "blob": "1a7cd0d08367cdcc5d6db1d1a34cd7e82d361eb9",
+      "words": 481,
+      "examples": [],
+      "reference": "references/best-practices/update.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "",
+      "title": "NgModules",
+      "url": "https://angular.dev/guide/ngmodules/overview",
+      "contentPath": "guide/ngmodules/overview",
+      "alsoIn": [],
+      "blob": "1fc26a7edb5f86d1ae9b555e1e602e0e06ccbcca",
+      "words": 859,
+      "examples": [],
+      "reference": "references/guide/ngmodules.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Legacy Animations",
+      "title": "Overview",
+      "url": "https://angular.dev/guide/legacy-animations",
+      "contentPath": "guide/animations/overview",
+      "alsoIn": [],
+      "blob": "1fd7803649645abab017a3707c6646cf78999749",
+      "words": 2226,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/app.module.1.ts",
+          "blob": "e1bb634f2c37bd8d5325a32589f26fff12605f71"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/app.ts",
+          "blob": "a39cc1939cef5c02c66df035de8753b4588ae763"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.1.html",
+          "blob": "b6960b0d196e71f5595c8808eaaf6b9161d01f56"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.css",
+          "blob": "c7401b7f181a49d6381d9673bb4062352f0733bb"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.ts",
+          "blob": "80c475be479fa1fb8f90f8130ce3d8597e33acfa"
+        }
+      ],
+      "reference": "references/guide/animations-legacy.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Legacy Animations",
+      "title": "Transition and Triggers",
+      "url": "https://angular.dev/guide/legacy-animations/transition-and-triggers",
+      "contentPath": "guide/animations/transition-and-triggers",
+      "alsoIn": [],
+      "blob": "7cfe75968dee8990b3342fb034a3d9f1c4b18c4f",
+      "words": 2254,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/app.ts",
+          "blob": "a39cc1939cef5c02c66df035de8753b4588ae763"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/hero-list-auto.ts",
+          "blob": "d2f3dd7225f2d703117728312413187390895219"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/hero-list-enter-leave.ts",
+          "blob": "8c2ed84b443724b9114d4c9d0c22c16593932116"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/hero-list-page.ts",
+          "blob": "bbf7b02048c3915672e22fd9ccb9a155d505b1a6"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/insert-remove.html",
+          "blob": "4d4a15d66725a40f9b4b5c3f27a1da47e7031335"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/insert-remove.ts",
+          "blob": "ad8e26d5f29d1e07d50245369650a9739cc4f244"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.1.ts",
+          "blob": "d13a18e341298a8d2473cca14db0445d612418d2"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.2.html",
+          "blob": "dca6aba158eea6496a1bb825339c04078c00a82a"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.2.ts",
+          "blob": "f2f4429114c845bb4787a63cd9ba808da4532bd6"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.3.html",
+          "blob": "04dbcb8981801fa89564cb00ce362616dab2e517"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.4.html",
+          "blob": "c92142fb778c137955a5d24b54d9402de89b0a1a"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.4.ts",
+          "blob": "e38b7eb6d8288b7d1d83940cc79fa540c955a78c"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.ts",
+          "blob": "80c475be479fa1fb8f90f8130ce3d8597e33acfa"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/status-slider.ts",
+          "blob": "f97f810295b73cfd29e62d37a51b600c8297e2e5"
+        }
+      ],
+      "reference": "references/guide/animations-legacy.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Legacy Animations",
+      "title": "Complex Sequences",
+      "url": "https://angular.dev/guide/legacy-animations/complex-sequences",
+      "contentPath": "guide/animations/complex-sequences",
+      "alsoIn": [],
+      "blob": "0efe9729d104fa4eb6e975ea93aae17e19c3282d",
+      "words": 1323,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/hero-list-groups.ts",
+          "blob": "3aa27e693dc487e2acaddd6c54d6cf9427b0a109"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/hero-list-page.html",
+          "blob": "2a6fcbc17712b0e6d5713a068305060b15e04acb"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/hero-list-page.ts",
+          "blob": "bbf7b02048c3915672e22fd9ccb9a155d505b1a6"
+        }
+      ],
+      "reference": "references/guide/animations-legacy.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Legacy Animations",
+      "title": "Reusable Animations",
+      "url": "https://angular.dev/guide/legacy-animations/reusable-animations",
+      "contentPath": "guide/animations/reusable-animations",
+      "alsoIn": [],
+      "blob": "ab37f5840246b7a6a12af4147f4526f516a3e282",
+      "words": 248,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations.1.ts",
+          "blob": "5d6c92eb770e01e10a013e779ec093b5c3456275"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.3.ts",
+          "blob": "f1554bf949ab19007cac6e1974da47052cececd8"
+        }
+      ],
+      "reference": "references/guide/animations-legacy.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Legacy Animations",
+      "title": "Migrating to Native CSS Animations",
+      "url": "https://angular.dev/guide/animations/migration",
+      "contentPath": "guide/animations/migration",
+      "alsoIn": [],
+      "blob": "37ab500b89ade66e8313ff013ea3ea379f9f8184",
+      "words": 1959,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/auto-height.css",
+          "blob": "c28bc86d6771b84ad0ea03c91fdf402276d0d7c7"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/auto-height.html",
+          "blob": "cfb4eef6ad5bf12cab2e4943b852dc37bc85dcfd"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/auto-height.ts",
+          "blob": "48b996c1b1d45f0982a611dff5161c8276ae4567"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/increment-decrement.css",
+          "blob": "1bc648a104e502e3d70db226686675547ee7b57a"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/increment-decrement.html",
+          "blob": "58a438af2525da6606ecb8abb410bfe49a9ea6fc"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/increment-decrement.ts",
+          "blob": "0eb32325dfd2c1109f2df55e92cd49262a098c40"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/insert-remove.css",
+          "blob": "bc0cb127de0e8af6dbb072b4a5909d2ece5b70eb"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/insert-remove.html",
+          "blob": "09d7b98fa4b394797460a2af0ffdcc2f4bb9b69f"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/insert-remove.ts",
+          "blob": "3485e74143bb294ff348da5b58b8f4939e099aa0"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/open-close.css",
+          "blob": "c7401b7f181a49d6381d9673bb4062352f0733bb"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/open-close.html",
+          "blob": "df7cb228c6c1599d483ec3310e82d0098190d32b"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/open-close.ts",
+          "blob": "fa04ba0103dfe6d70d8325710b6968272a43c423"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/reorder.css",
+          "blob": "44061330c065fba5995ee26feb8d69b801311e10"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/reorder.html",
+          "blob": "d6d6e0729aa68859e4b2093fb68cdb0fbbbe0ba4"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/reorder.ts",
+          "blob": "ce9652ce0bc14e0997f04c5031a517462feac1a9"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/stagger.css",
+          "blob": "44061330c065fba5995ee26feb8d69b801311e10"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/stagger.html",
+          "blob": "7cee6b0cfed85b036d8d29acb9097ff6ce3b9e0b"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations-package/stagger.ts",
+          "blob": "0dac4744515de0b3d6b7fa7a22aaedbacd1e2585"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations.1.ts",
+          "blob": "5d6c92eb770e01e10a013e779ec093b5c3456275"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/animations.css",
+          "blob": "fff24d04b6b7dda5f0bb11c221822dcb78f19825"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/auto-height.css",
+          "blob": "6921eb7e137ece15c3be34f76068eb1e1c4fd4d1"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/auto-height.html",
+          "blob": "fc8012c54a108502728d0cc9c1a5a32e3bd39ece"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/auto-height.ts",
+          "blob": "73f0d2dae0f16ed210b164eb253e1b042e4ac03b"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/increment-decrement.css",
+          "blob": "55e30dc0d6a154efce196b5f01e64074731a2ab7"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/increment-decrement.html",
+          "blob": "055ebbd4d9ec3303374e4d346ba029492cbe8e47"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/increment-decrement.ts",
+          "blob": "bd18f66d2573a760bc0f0b03a7f5e4e386f5ffe4"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/insert.css",
+          "blob": "03c51e6fe979b0dbe03da1c8496dd3c752145cda"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/insert.html",
+          "blob": "f5470c6e3961a4d9586c01ad02250722db5957dd"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/insert.ts",
+          "blob": "2461b1f2d68a7cd335ae761fd833f6880a9837ba"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/open-close.css",
+          "blob": "588f3a48c02cd7a81ad7261c16b8a8cd18103ce1"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/open-close.html",
+          "blob": "97b886de4ac1e7794999c4d84699a33943450d60"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/open-close.ts",
+          "blob": "e8dd8127bb999f1f6b72e57e37388c1085f5401b"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/remove.css",
+          "blob": "33845619fc91cc5e23ce7dfce953473496dd17d9"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/remove.html",
+          "blob": "2704c07eae86ce70dbc3560c76a094cb765ba6d4"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/remove.ts",
+          "blob": "00e19f3c941596371509991cf56ce15a04f472f6"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/reorder.css",
+          "blob": "5ff27b08f2e0f64f387f628e4101b9cef9241678"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/reorder.html",
+          "blob": "31209dcd32bc718530aaf12785984eb630fe39d6"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/reorder.ts",
+          "blob": "6efe2284176a6da3864d7901c63cb58c49e956df"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/stagger.css",
+          "blob": "40b094a33151aca949e439b8bec012e0afac0d55"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/stagger.html",
+          "blob": "52a814839897b24f1bc94d468b03fc28903a586e"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/native-css/stagger.ts",
+          "blob": "fd971dfcc40eebbf8070e47ebfd3ed1e533d90cd"
+        },
+        {
+          "path": "adev/src/content/examples/animations/src/app/open-close.ts",
+          "blob": "80c475be479fa1fb8f90f8130ce3d8597e33acfa"
+        }
+      ],
+      "reference": "references/guide/animations.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Using RxJS with Angular",
+      "title": "Signals interop",
+      "url": "https://angular.dev/ecosystem/rxjs-interop",
+      "contentPath": "ecosystem/rxjs-interop/signals-interop",
+      "alsoIn": [],
+      "blob": "f7f96e338b72d80fcc0b94ba7f38067fa408fb60",
+      "words": 1033,
+      "examples": [],
+      "reference": "references/ecosystem/rxjs-interop.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Using RxJS with Angular",
+      "title": "Component output interop",
+      "url": "https://angular.dev/ecosystem/rxjs-interop/output-interop",
+      "contentPath": "ecosystem/rxjs-interop/output-interop",
+      "alsoIn": [],
+      "blob": "75f6165f7353505615bc641be282226864586c72",
+      "words": 225,
+      "examples": [],
+      "reference": "references/ecosystem/rxjs-interop.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Using RxJS with Angular",
+      "title": "Unsubscribing with takeUntilDestroyed",
+      "url": "https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed",
+      "contentPath": "ecosystem/rxjs-interop/take-until-destroyed",
+      "alsoIn": [],
+      "blob": "00179aa5f5dc1f80e1440d35a05193b0505b07e8",
+      "words": 236,
+      "examples": [],
+      "reference": "references/ecosystem/rxjs-interop.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Overview",
+      "url": "https://angular.dev/ecosystem/service-workers",
+      "contentPath": "ecosystem/service-workers/overview",
+      "alsoIn": [],
+      "blob": "6834f37e6275cec144bef293d505d12843cb0969",
+      "words": 1138,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Getting started",
+      "url": "https://angular.dev/ecosystem/service-workers/getting-started",
+      "contentPath": "ecosystem/service-workers/getting-started",
+      "alsoIn": [],
+      "blob": "5775c28b8409719e747ec2e2ea42b3eb85d25311",
+      "words": 1528,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Custom service worker scripts",
+      "url": "https://angular.dev/ecosystem/service-workers/custom-service-worker-scripts",
+      "contentPath": "ecosystem/service-workers/custom-service-worker-scripts",
+      "alsoIn": [],
+      "blob": "2a5dbaeac9f6b5dc005bc1a5d8797e2d8587d201",
+      "words": 392,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Configuration file",
+      "url": "https://angular.dev/ecosystem/service-workers/config",
+      "contentPath": "ecosystem/service-workers/config",
+      "alsoIn": [],
+      "blob": "26783cddbad7794cd7d14dcd7279a1e454c35ec3",
+      "words": 2922,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Communicating with the service worker",
+      "url": "https://angular.dev/ecosystem/service-workers/communications",
+      "contentPath": "ecosystem/service-workers/communications",
+      "alsoIn": [],
+      "blob": "f10efab1473f5d2d26886635ceb9004f6ec40ee7",
+      "words": 984,
+      "examples": [
+        {
+          "path": "adev/src/content/examples/service-worker-getting-started/src/app/check-for-update.service.ts",
+          "blob": "7b5bdd77c55eb9f223130f27420ae56bb7b5b7ec"
+        },
+        {
+          "path": "adev/src/content/examples/service-worker-getting-started/src/app/handle-unrecoverable-state.service.ts",
+          "blob": "2ea3554eddcc276478c1f58d7317f424448b7307"
+        },
+        {
+          "path": "adev/src/content/examples/service-worker-getting-started/src/app/log-update.service.ts",
+          "blob": "1a29753826a18ec8cfc39aaecc2321c977db45af"
+        },
+        {
+          "path": "adev/src/content/examples/service-worker-getting-started/src/app/prompt-update.service.ts",
+          "blob": "05b50f3da307d382959a2121f7e5523f3567e36a"
+        }
+      ],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Push notifications",
+      "url": "https://angular.dev/ecosystem/service-workers/push-notifications",
+      "contentPath": "ecosystem/service-workers/push-notifications",
+      "alsoIn": [],
+      "blob": "054b95826a968a7ab630c2df61e87cef395470c2",
+      "words": 538,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "Service worker devops",
+      "url": "https://angular.dev/ecosystem/service-workers/devops",
+      "contentPath": "ecosystem/service-workers/devops",
+      "alsoIn": [],
+      "blob": "38830ddd548d23f84004e5b3b815caa87c8ea827",
+      "words": 2901,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "Service Workers & PWAs",
+      "title": "App shell pattern",
+      "url": "https://angular.dev/ecosystem/service-workers/app-shell",
+      "contentPath": "ecosystem/service-workers/app-shell",
+      "alsoIn": [],
+      "blob": "ccc29cb4bcd4a5e89a547190703c868fa8f26e1b",
+      "words": 270,
+      "examples": [],
+      "reference": "references/ecosystem/service-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "",
+      "title": "Web workers",
+      "url": "https://angular.dev/ecosystem/web-workers",
+      "contentPath": "ecosystem/web-workers",
+      "alsoIn": [],
+      "blob": "dff85f273645777414e862d6f3d9c34ebb7a9d0b",
+      "words": 301,
+      "examples": [],
+      "reference": "references/ecosystem/web-workers.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "",
+      "title": "Custom build pipeline",
+      "url": "https://angular.dev/ecosystem/custom-build-pipeline",
+      "contentPath": "ecosystem/custom-build-pipeline",
+      "alsoIn": [],
+      "blob": "d2bab6eba505d8efa35d88321ddc618889f05ba2",
+      "words": 429,
+      "examples": [],
+      "reference": "references/tools/cli-builders.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "group": "",
+      "title": "Tailwind",
+      "url": "https://angular.dev/guide/tailwind",
+      "contentPath": "guide/tailwind",
+      "alsoIn": [],
+      "blob": "36cd034d9f5a761ca7147c3e26303a133abb600c",
+      "words": 392,
+      "examples": [],
+      "reference": "references/guide/tailwind.md"
+    }
+  ],
+  "external": [
+    {
+      "section": "Extended Ecosystem",
+      "title": "Angular Fire",
+      "url": "https://github.com/angular/angularfire#readme"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "title": "Google Maps",
+      "url": "https://github.com/angular/components/tree/main/src/google-maps#readme"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "title": "Google Pay",
+      "url": "https://github.com/google-pay/google-pay-button#angular"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "title": "YouTube player",
+      "url": "https://github.com/angular/components/blob/main/src/youtube-player/README.md"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "title": "Angular CDK",
+      "url": "https://material.angular.dev/cdk/categories"
+    },
+    {
+      "section": "Extended Ecosystem",
+      "title": "Angular Material",
+      "url": "https://material.angular.dev/"
+    }
+  ]
+}
