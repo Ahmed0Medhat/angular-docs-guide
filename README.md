@@ -115,4 +115,5 @@ Requires Node.js 20+.
 - التثبيت في Claude Code: `/plugin marketplace add Ahmed0Medhat/angular-docs-guide` وبعدها `/plugin install angular-docs-guide@angular-docs-guide`.
 - لأي agent تاني: `npx skills add https://github.com/Ahmed0Medhat/angular-docs-guide`.
 - الـ skill بتشوف إصدار Angular في المشروع الأول، وبتطبّق القواعد حسبه.
+- التقييم: في 5 مهام Angular 22، الـ skill جابت 28/28 ومن غيرها 25/28. الفرق كله في حاجات إصدار 22 الجديدة (الـ incremental hydration التلقائي و`debounced()`). التفاصيل في قسم Evaluation فوق.
 - للتحديث لإصدار أحدث: شغّل `npm run sync-check -- --ref main` عشان تعرف الصفحات اللي اتغيرت، وعدّل ملفات الـ reference بتاعتها بس، وبعدين `npm run check`.
