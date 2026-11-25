@@ -79,6 +79,34 @@ npx skills add https://github.com/Ahmed0Medhat/angular-docs-guide
 
 Design: [docs/specs/2026-11-24-angular-docs-guide-design.md](docs/specs/2026-11-24-angular-docs-guide-design.md).
 
+### Evaluation (with skill vs. without)
+
+Five Angular 22 tasks live in [`evals/`](evals/). Each one has 5–6 grading criteria taken from the reference files. Each task was answered twice by `claude-opus-5-5`: once with the skill loaded, and once from the model's own knowledge with no file access. Both runs started in an empty folder with no project instructions. The answers were graded by hand against the criteria (2026-11-25).
+
+| Case | With skill | Without skill | What the baseline missed |
+|---|---|---|---|
+| signal-form | 6/6 | 6/6 | — (it assumed `[formField]` sets `aria-invalid`, which the docs don't state) |
+| http-interceptor | 5/5 | 5/5 | — |
+| ssr-incremental-hydration | 5/5 | 3/5 | Used `withIncrementalHydration()`, which isn't in the v22 docs (`provideClientHydration()` enables incremental hydration by default), and added a redundant `withEventReplay()` |
+| debounced-resource | 6/6 | 5/6 | Didn't know `debounced()`, so it hand-rolled an `effect` + `setTimeout` debounce |
+| router-component-test | 6/6 | 6/6 | — |
+| **Total** | **28/28** | **25/28** | |
+
+| Cost of one run (5 tasks) | With skill | Without skill |
+|---|---|---|
+| Wall time | 3 min 44 s | 2 min 13 s |
+| Tokens processed (mostly cache reads of reference files) | ~2.6 M | ~0.19 M |
+| API-equivalent cost at Opus 5.5 rates | ≈ $2.01 | ≈ $0.77 |
+
+What this shows:
+- **With the skill:** every criterion was met.
+- **Without it:** the model already knows most of Angular 22 (Signal Forms, functional interceptors, `RouterTestingHarness`), so three cases tie.
+- **Where the skill makes the difference:** v22-specific details the model gets wrong from memory (incremental hydration defaults, `debounced()`), and not inventing behavior the docs don't describe.
+- **The cost:** about 1.5 minutes more and about 2.6× the API cost per run.
+- **What this doesn't measure yet:** the spec's target was for the baseline to miss in at least 3 of 5 cases, and it missed in 2. The three tied cases still guard against regressions, but they don't measure the skill's added value; harder v22-only cases would.
+
+An earlier run started inside a project whose `CLAUDE.md` already contained Angular rules. It gave the same picture: with the skill 28/28, without 26/28.
+
 ## Updating to a newer Angular
 
 ```bash
